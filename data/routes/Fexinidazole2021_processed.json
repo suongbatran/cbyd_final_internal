@@ -1,0 +1,166 @@
+{
+  "background": {
+    "name": "Fexindazole",
+    "author": null,
+    "year": 2021,
+    "drug name": "Fexindazole",
+    "manufacturer": "Hoechst",
+    "citation": "J. Med. Chem. 2023, 66, 10150\u201310201",
+    "doi": "10.1021/acs.jmedchem.3c00501"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "O=[N+]([O-])c1cnc[nH]1>>Cn1cncc1[N+](=O)[O-]",
+      "raw_description": "Me2SO4; dioxane; 82%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "Me2SO4"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "dioxane"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "COS(=O)(=O)OC"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1COCCO1"
+        ]
+      },
+      "full_reaction_smiles": "O=[N+]([O-])c1cnc[nH]1.COS(=O)(=O)OC.C1COCCO1>>Cn1cncc1[N+](=O)[O-]",
+      "full_reaction_smiles_mapped": "COS(=O)(=O)O[CH3:1].[nH:2]1[cH:3][n:4][cH:5][c:6]1[N+:7](=[O:8])[O-:9]>C1COCCO1>[CH3:1][n:2]1[cH:3][n:4][cH:5][c:6]1[N+:7](=[O:8])[O-:9]",
+      "mapping_confidence": 0.7187866545137186
+    },
+    {
+      "reaction_id": "2",
+      "reaction_smiles": "Cn1cncc1[N+](=O)[O-]>>Cn1c([N+](=O)[O-])cnc1CO",
+      "raw_description": "HCHO; DMSO; 62%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "HCHO"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "62%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C=O"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CS(=O)C"
+        ]
+      },
+      "full_reaction_smiles": "Cn1cncc1[N+](=O)[O-].C=O.CS(C)=O>>Cn1c([N+](=O)[O-])cnc1CO",
+      "full_reaction_smiles_mapped": "[CH2:10]=[O:11].[CH3:1][n:2]1[c:3]([N+:4](=[O:5])[O-:6])[cH:7][n:8][cH:9]1>CS(C)=O>[CH3:1][n:2]1[c:3]([N+:4](=[O:5])[O-:6])[cH:7][n:8][c:9]1[CH2:10][OH:11]",
+      "mapping_confidence": 0.9796920186842957
+    },
+    {
+      "reaction_id": "3",
+      "reaction_smiles": "Cn1c([N+](=O)[O-])cnc1CO>>Cn1c([N+](=O)[O-])cnc1CCl",
+      "raw_description": "SOCl2; DCM",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "O=S(Cl)Cl"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "ClCCl"
+        ]
+      },
+      "full_reaction_smiles": "Cn1c([N+](=O)[O-])cnc1CO.O=S(Cl)Cl.ClCCl>>Cn1c([N+](=O)[O-])cnc1CCl",
+      "full_reaction_smiles_mapped": "O[CH2:10][c:9]1[n:2]([CH3:1])[c:3]([N+:4](=[O:5])[O-:6])[cH:7][n:8]1.O=S(Cl)[Cl:11]>ClCCl>[CH3:1][n:2]1[c:3]([N+:4](=[O:5])[O-:6])[cH:7][n:8][c:9]1[CH2:10][Cl:11]",
+      "mapping_confidence": 0.4805079839610618
+    },
+    {
+      "reaction_id": "4",
+      "reaction_smiles": "Cn1c([N+](=O)[O-])cnc1CCl>CSc1ccc(O)cc1>CSc1ccc(OCc2ncc([N+](=O)[O-])n2C)cc1",
+      "raw_description": "K2CO3; acetone; HCl",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "K2CO3",
+          "HCl"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C(=O)([O-])[O-].[K+].[K+]",
+          "Cl"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CC(=O)C"
+        ]
+      },
+      "full_reaction_smiles": "Cn1c([N+](=O)[O-])cnc1CCl.CSc1ccc(O)cc1.O=C([O-])[O-].[K+].[K+].Cl.CC(C)=O>>CSc1ccc(OCc2ncc([N+](=O)[O-])n2C)cc1",
+      "full_reaction_smiles_mapped": "[CH3:1][S:2][c:3]1[cH:4][cH:5][c:6]([OH:7])[cH:18][cH:19]1.Cl[CH2:8][c:9]1[n:10][cH:11][c:12]([N+:13](=[O:14])[O-:15])[n:16]1[CH3:17]>O=C([O-])[O-].[K+].[K+].Cl.CC(C)=O>[CH3:1][S:2][c:3]1[cH:4][cH:5][c:6]([O:7][CH2:8][c:9]2[n:10][cH:11][c:12]([N+:13](=[O:14])[O-:15])[n:16]2[CH3:17])[cH:18][cH:19]1",
+      "mapping_confidence": 0.9421597368465968
+    },
+    {
+      "reaction_id": "5",
+      "reaction_smiles": "CSc1ccc(OCc2ncc([N+](=O)[O-])n2C)cc1>>CSc1ccc(OCc2ncc([N+](=O)[O-])n2C)cc1",
+      "raw_description": "NH3; acetone; 65% (3 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "NH3"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "65% (3 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "N"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CC(=O)C"
+        ]
+      },
+      "full_reaction_smiles": "CSc1ccc(OCc2ncc([N+](=O)[O-])n2C)cc1.N.CC(C)=O>>CSc1ccc(OCc2ncc([N+](=O)[O-])n2C)cc1",
+      "full_reaction_smiles_mapped": "[CH3:1][S:2][c:3]1[cH:4][cH:5][c:6]([O:7][CH2:8][c:9]2[n:10][cH:11][c:12]([N+:13](=[O:14])[O-:15])[n:16]2[CH3:17])[cH:18][cH:19]1>N.CC(C)=O>[CH3:1][S:2][c:3]1[cH:4][cH:5][c:6]([O:7][CH2:8][c:9]2[n:10][cH:11][c:12]([N+:13](=[O:14])[O-:15])[n:16]2[CH3:17])[cH:18][cH:19]1",
+      "mapping_confidence": 0.9285878983233191
+    }
+  ]
+}

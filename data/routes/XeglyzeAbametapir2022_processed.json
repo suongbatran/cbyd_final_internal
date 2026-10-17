@@ -1,0 +1,81 @@
+{
+  "background": {
+    "name": "Abametapir",
+    "author": null,
+    "year": 2020,
+    "drug name": "Xeglyze",
+    "manufacturer": "DrReddys",
+    "citation": "J. Med. Chem. 2022, 65, 9607",
+    "doi": "10.1021/acs.jmedchem.2c00710"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "0",
+      "reaction_smiles": "Cc1ccc(N)nc1>BrBr.[O-]N=O.[Na+].Br.[Na+].[OH-]>Cc1ccc(Br)nc1",
+      "raw_description": "Br2; NaNO2; HBr; 12 \u00b0C; NaOH; 75%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "Br2",
+          "NaNO2",
+          "NaOH",
+          "HBr"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "12"
+        ],
+        "YIELD": [
+          "75%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "BrBr",
+          "N(=O)[O-].[Na+]",
+          "[OH-].[Na+]",
+          "Br"
+        ],
+        "SOLVENTS_DEFINITIONS": []
+      },
+      "full_reaction_smiles": "Cc1ccc(N)nc1.BrBr.O=N[O-].[Na+].Br.[Na+].[OH-].O=N[O-].[Na+].[Na+].[OH-]>>Cc1ccc(Br)nc1",
+      "full_reaction_smiles_mapped": "Br[Br:6].N[c:5]1[cH:4][cH:3][c:2]([CH3:1])[cH:8][n:7]1>Br.O=N[O-].O=N[O-].[Na+].[Na+].[Na+].[Na+].[OH-].[OH-]>[CH3:1][c:2]1[cH:3][cH:4][c:5]([Br:6])[n:7][cH:8]1",
+      "mapping_confidence": 0.3606004503024051
+    },
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "Cc1ccc(Br)nc1.Cc1ccc(Br)nc1>>Cc1ccc(-c2ccc(C)cn2)nc1",
+      "raw_description": "Pd/C; NaOH; 106 \u00b0C; 79%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "LIGANDS": [],
+        "SOLVENTS": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "106"
+        ],
+        "YIELD": [
+          "79%"
+        ],
+        "CATALYSTS_DEFINITIONS": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[OH-].[Na+]"
+        ],
+        "SOLVENTS_DEFINITIONS": []
+      },
+      "full_reaction_smiles": "Cc1ccc(Br)nc1.Cc1ccc(Br)nc1.[Na+].[OH-].[C].[Pd]>>Cc1ccc(-c2ccc(C)cn2)nc1",
+      "full_reaction_smiles_mapped": "Br[c:5]1[cH:4][cH:3][c:2]([CH3:1])[cH:14][n:13]1.Br[c:6]1[cH:7][cH:8][c:9]([CH3:10])[cH:11][n:12]1>[C].[Na+].[OH-].[Pd]>[CH3:1][c:2]1[cH:3][cH:4][c:5](-[c:6]2[cH:7][cH:8][c:9]([CH3:10])[cH:11][n:12]2)[n:13][cH:14]1",
+      "mapping_confidence": 0.6651621405973431
+    }
+  ]
+}

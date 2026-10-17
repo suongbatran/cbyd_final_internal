@@ -1,0 +1,86 @@
+{
+  "background": {
+    "name": "Urea",
+    "author": "Wohler",
+    "year": 1828,
+    "drug name": null,
+    "manufacturer": null,
+    "citation": "Ann. Phys. Chem. 1828, 12, 253",
+    "doi": "10.1002/andp.18280880206"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "[K]C#N>O=[Pb]=O>[K]OC#N",
+      "raw_description": "PbO2",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "PbO2"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "O=[Pb](=O)"
+        ],
+        "SOLVENTS_DEFINITIONS": []
+      },
+      "full_reaction_smiles": "N#C[K].O=[Pb]=O>>N#CO[K]",
+      "full_reaction_smiles_mapped": "[N:1]#[C:2][K:4].O=[Pb]=[O:3]>>[N:1]#[C:2][O:3][K:4]",
+      "mapping_confidence": 0.5630424085310561
+    },
+    {
+      "reaction_id": "2",
+      "reaction_smiles": "N#CO[K]>>N#C[O-].[NH4+]",
+      "raw_description": "(NH4)2SO4",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "(NH4)2SO4"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[NH4+].[NH4+].[O-]S(=O)(=O)[O-]"
+        ],
+        "SOLVENTS_DEFINITIONS": []
+      },
+      "full_reaction_smiles": "N#CO[K].O=S(=O)([O-])[O-].[NH4+].[NH4+]>>N#C[O-].[NH4+]",
+      "full_reaction_smiles_mapped": "[K][O:3][C:2]#[N:1].[NH4+:4]>O=S(=O)([O-])[O-].[NH4+]>[N:1]#[C:2][O-:3].[NH4+:4]",
+      "mapping_confidence": 0.5464444928642225
+    },
+    {
+      "reaction_id": "3",
+      "reaction_smiles": "N#C[O-].[NH4+]>>NC(N)=O",
+      "raw_description": "heat",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [],
+        "MODIFIERS": [
+          "heat"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [],
+        "SOLVENTS_DEFINITIONS": []
+      },
+      "full_reaction_smiles": "N#C[O-].[NH4+]>>NC(N)=O",
+      "full_reaction_smiles_mapped": "[C:2](#[N:3])[O-:4].[NH4+:1]>>[NH2:1][C:2]([NH2:3])=[O:4]",
+      "mapping_confidence": 0.9949830593521426
+    }
+  ]
+}

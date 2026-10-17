@@ -1,0 +1,100 @@
+{
+  "background": {
+    "name": "Cyclothiazide",
+    "author": null,
+    "year": 2015,
+    "drug name": "Anhydron",
+    "manufacturer": "Eli Lilly",
+    "citation": "Chem. Soc. Rev. 2015, 44, 7737",
+    "doi": "10.1039/c4cs00477a"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "0",
+      "reaction_smiles": "Nc1cccc(Cl)c1>OS(=O)(=O)Cl.OS(=O)(=O)Cl>Nc1cc(Cl)c(S(=O)(=O)Cl)cc1S(=O)(=O)Cl",
+      "raw_description": "ClSO3H; CH2Cl2; NaCl",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "ClSO3H",
+          "NaCl"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "OS(=O)(=O)Cl",
+          "[Na+].[Cl-]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C(Cl)Cl"
+        ]
+      },
+      "full_reaction_smiles": "Nc1cccc(Cl)c1.O=S(=O)(O)Cl.O=S(=O)(O)Cl.[Cl-].[Na+].ClCCl>>Nc1cc(Cl)c(S(=O)(=O)Cl)cc1S(=O)(=O)Cl",
+      "full_reaction_smiles_mapped": "[NH2:1][c:2]1[cH:3][c:4]([Cl:5])[cH:6][cH:11][cH:12]1.O=[S:7]([OH:8])(=[O:9])[Cl:10].O=[S:13]([OH:14])(=[O:15])[Cl:16]>ClCCl.[Cl-].[Na+]>[NH2:1][c:2]1[cH:3][c:4]([Cl:5])[c:6]([S:7](=[O:8])(=[O:9])[Cl:10])[cH:11][c:12]1[S:13](=[O:14])(=[O:15])[Cl:16]",
+      "mapping_confidence": 0.02582262403460161
+    },
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "Nc1cc(Cl)c(S(=O)(=O)Cl)cc1S(=O)(=O)Cl>N.N>Nc1cc(Cl)c(S(N)(=O)=O)cc1S(N)(=O)=O",
+      "raw_description": "NH3",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "NH3"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "N"
+        ],
+        "SOLVENTS_DEFINITIONS": []
+      },
+      "full_reaction_smiles": "Nc1cc(Cl)c(S(=O)(=O)Cl)cc1S(=O)(=O)Cl.N.N>>Nc1cc(Cl)c(S(N)(=O)=O)cc1S(N)(=O)=O",
+      "full_reaction_smiles_mapped": "[NH3:8].[NH3:14].Cl[S:7]([c:6]1[c:4]([Cl:5])[cH:3][c:2]([NH2:1])[c:12]([S:13](Cl)(=[O:15])=[O:16])[cH:11]1)(=[O:9])=[O:10]>>[NH2:1][c:2]1[cH:3][c:4]([Cl:5])[c:6]([S:7]([NH2:8])(=[O:9])=[O:10])[cH:11][c:12]1[S:13]([NH2:14])(=[O:15])=[O:16]",
+      "mapping_confidence": 0.16748638478087796
+    },
+    {
+      "reaction_id": "2",
+      "reaction_smiles": "Nc1cc(Cl)c(S(N)(=O)=O)cc1S(N)(=O)=O>O=CC1CC2C=CC1C2.[H+].CCO>NS(=O)(=O)c1cc2c(cc1Cl)NC(C1CC3C=CC1C3)NS2(=O)=O",
+      "raw_description": "H+; EtOH; 46% (3 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "H+"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "46% (3 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[H+]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CCO"
+        ]
+      },
+      "full_reaction_smiles": "Nc1cc(Cl)c(S(N)(=O)=O)cc1S(N)(=O)=O.O=CC1CC2C=CC1C2.[H+].CCO>>NS(=O)(=O)c1cc2c(cc1Cl)NC(C1CC3C=CC1C3)NS2(=O)=O",
+      "full_reaction_smiles_mapped": "[NH2:1][S:2](=[O:3])(=[O:4])[c:5]1[cH:6][c:7]([S:22]([NH2:21])(=[O:23])=[O:24])[c:8]([NH2:12])[cH:9][c:10]1[Cl:11].O=[CH:13][CH:14]1[CH2:15][CH:16]2[CH:17]=[CH:18][CH:19]1[CH2:20]2>CCO.[H+]>[NH2:1][S:2](=[O:3])(=[O:4])[c:5]1[cH:6][c:7]2[c:8]([cH:9][c:10]1[Cl:11])[NH:12][CH:13]([CH:14]1[CH2:15][CH:16]3[CH:17]=[CH:18][CH:19]1[CH2:20]3)[NH:21][S:22]2(=[O:23])=[O:24]",
+      "mapping_confidence": 0.3669545070769033
+    }
+  ]
+}

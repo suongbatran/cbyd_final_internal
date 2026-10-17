@@ -1,0 +1,1370 @@
+{
+  "background": {
+    "name": "(-)-Enigmazole A",
+    "author": "Fuwa",
+    "year": 2024,
+    "drug name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2024, 26, 2045",
+    "doi": "10.1021/acs.orglett.4c00290"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "C#C[C@@H](C)O>>C/C(=C/I)[C@@H](C)O",
+      "raw_description": "1) CuI; MeMgBr; PhMe; -78 \u00b0C to rt; 2) I2; THF; -40 \u00b0C",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "MeMgBr",
+          "I2",
+          "CuI"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF",
+          "PhMe"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "23",
+          "-40"
+        ],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C[Mg]Br",
+          "II",
+          "[Cu+].[I-]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1",
+          "CC1=CC=CC=C1"
+        ]
+      },
+      "full_reaction_smiles": "C#C[C@@H](C)O.C[Mg]Br.II.[Cu+].[I-].C1CCOC1.Cc1ccccc1>>C/C(=C/I)[C@@H](C)O",
+      "full_reaction_smiles_mapped": "[C:2](#[CH:3])[C@@H:5]([CH3:6])[OH:7].Br[Mg][CH3:1].I[I:4]>C1CCOC1.Cc1ccccc1.[Cu+].[I-]>[CH3:1]/[C:2](=[CH:3]/[I:4])[C@@H:5]([CH3:6])[OH:7]",
+      "mapping_confidence": 0.46929936820051343
+    },
+    {
+      "reaction_id": "2",
+      "reaction_smiles": "C/C(=C/I)[C@@H](C)O>>CO[C@H](C)/C(C)=C\\I",
+      "raw_description": "NaH; MeI; 15-crown-5; Et2O; 0 \u00b0C to rt; 77% (2 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "MeI"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [
+          "15-crown-5"
+        ],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": [
+          "77% (2 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [
+          "C1COCCOCCOCCOCCO1"
+        ],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[Na+].[H-]",
+          "CI"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CCOCC"
+        ]
+      },
+      "full_reaction_smiles": "C/C(=C/I)[C@@H](C)O.[H-].[Na+].CI.C1COCCOCCOCCOCCO1.CCOCC>>CO[C@H](C)/C(C)=C\\I",
+      "full_reaction_smiles_mapped": "[OH:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[I:8].I[CH3:1]>C1COCCOCCOCCOCCO1.CCOCC.[H-].[Na+]>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[I:8]",
+      "mapping_confidence": 0.8441615591637948
+    },
+    {
+      "reaction_id": "3",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\I>CCOC(=O)c1coc(Cl)n1>CCOC(=O)c1coc(/C=C(/C)C(C)OC)n1",
+      "raw_description": "tBuLi; ZnCl2; Et2O; THF; -78 \u00b0C to rt; Pd(PPh3); THF; 65 \u00b0C; 80%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "tBuLi"
+        ],
+        "CATALYSTS": [
+          "Pd(PPh3)",
+          "ZnCl2"
+        ],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "Et2O",
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "23",
+          "65"
+        ],
+        "YIELD": [
+          "80%"
+        ],
+        "CATALYSTS_DEFINITIONS": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]",
+          "[Cl-].[Cl-].[Zn++]"
+        ],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[Li]C(C)(C)C"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CCOCC",
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "CO[C@H](C)/C(C)=C\\I.CCOC(=O)c1coc(Cl)n1.[Li]C(C)(C)C.[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.[Cl-].[Cl-].[Zn+2].CCOCC.C1CCOC1>>CCOC(=O)c1coc(/C=C(/C)C(C)OC)n1",
+      "full_reaction_smiles_mapped": "Cl[c:9]1[o:8][cH:7][c:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[n:17]1.I/[CH:10]=[C:11](/[CH3:12])[C@@H:13]([CH3:14])[O:15][CH3:16]>C1CCOC1.CCOCC.[Cl-].[Cl-].[Li]C(C)(C)C.[Pd].[Zn+2].c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][o:8][c:9](/[CH:10]=[C:11](/[CH3:12])[CH:13]([CH3:14])[O:15][CH3:16])[n:17]1",
+      "mapping_confidence": 0.9815673155131366
+    },
+    {
+      "reaction_id": "4",
+      "reaction_smiles": "CCOC(=O)c1coc(/C=C(/C)C(C)OC)n1>>CO[C@H](C)/C(C)=C\\c1nc(C=O)co1",
+      "raw_description": "DIBAL-H; CH2Cl2; -78 \u00b0C; 87%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "87%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C(Cl)Cl"
+        ]
+      },
+      "full_reaction_smiles": "CCOC(=O)c1coc(/C=C(/C)C(C)OC)n1.CC(C)C[AlH]CC(C)C.ClCCl>>CO[C@H](C)/C(C)=C\\c1nc(C=O)co1",
+      "full_reaction_smiles_mapped": "CCO[C:11]([c:10]1[n:9][c:8](/[CH:7]=[C:5](\\[CH:3]([O:2][CH3:1])[CH3:4])[CH3:6])[o:14][cH:13]1)=[O:12]>CC(C)C[AlH]CC(C)C.ClCCl>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([CH:11]=[O:12])[cH:13][o:14]1",
+      "mapping_confidence": 0.9854372583628676
+    },
+    {
+      "reaction_id": "5",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc(C=O)co1>CC(=O)N1C(=S)SC[C@H]1C(C)C>COC(C)/C(C)=C\\c1nc([C@H](O)CC(=O)N2C(=S)SC[C@H]2C(C)C)co1",
+      "raw_description": "TiCl4; DIPEA; CH2Cl2; -40 to -78 \u00b0C; 79%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [],
+        "CATALYSTS": [
+          "TiCl4"
+        ],
+        "LIGANDS": [
+          "DIPEA"
+        ],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-40",
+          "-78"
+        ],
+        "YIELD": [
+          "79%"
+        ],
+        "CATALYSTS_DEFINITIONS": [
+          "Cl[Ti](Cl)(Cl)Cl"
+        ],
+        "LIGANDS_DEFINITIONS": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "GENERAL_REAGENTS_DEFINITIONS": [],
+        "SOLVENTS_DEFINITIONS": [
+          "C(Cl)Cl"
+        ]
+      },
+      "full_reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc(C=O)co1.CC(=O)N1C(=S)SC[C@H]1C(C)C.Cl[Ti](Cl)(Cl)Cl.CCN(C(C)C)C(C)C.ClCCl>>COC(C)/C(C)=C\\c1nc([C@H](O)CC(=O)N2C(=S)SC[C@H]2C(C)C)co1",
+      "full_reaction_smiles_mapped": "[CH3:13][C:14](=[O:15])[N:16]1[C:17](=[S:18])[S:19][CH2:20][C@H:21]1[CH:22]([CH3:23])[CH3:24].[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([CH:11]=[O:12])[cH:25][o:26]1>CCN(C(C)C)C(C)C.ClCCl.Cl[Ti](Cl)(Cl)Cl>[CH3:1][O:2][CH:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@H:11]([OH:12])[CH2:13][C:14](=[O:15])[N:16]2[C:17](=[S:18])[S:19][CH2:20][C@H:21]2[CH:22]([CH3:23])[CH3:24])[cH:25][o:26]1",
+      "mapping_confidence": 0.7017067357706003
+    },
+    {
+      "reaction_id": "6",
+      "reaction_smiles": "COC(C)/C(C)=C\\c1nc([C@H](O)CC(=O)N2C(=S)SC[C@H]2C(C)C)co1>>CC[Si](CC)(CC)O[C@@H](CC(=O)N1C(=S)SC[C@H]1C(C)C)c1coc(/C=C(/C)[C@@H](C)OC)n1",
+      "raw_description": "TESOTf; 2,6-lutidine; THF; -78 \u00b0C",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "TESOTf"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF",
+          "2,6-lutidine"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "CC[Si](CC)(CC)OS(=O)(=O)C(F)(F)F"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1",
+          "Cc1cccc(C)n1"
+        ]
+      },
+      "full_reaction_smiles": "COC(C)/C(C)=C\\c1nc([C@H](O)CC(=O)N2C(=S)SC[C@H]2C(C)C)co1.CC[Si](CC)(CC)OS(=O)(=O)C(F)(F)F.C1CCOC1.Cc1cccc(C)n1>>CC[Si](CC)(CC)O[C@@H](CC(=O)N1C(=S)SC[C@H]1C(C)C)c1coc(/C=C(/C)[C@@H](C)OC)n1",
+      "full_reaction_smiles_mapped": "O=S(=O)(O[Si:3]([CH2:2][CH3:1])([CH2:4][CH3:5])[CH2:6][CH3:7])C(F)(F)F.[OH:8][C@H:9]([CH2:10][C:11](=[O:12])[N:13]1[C:14](=[S:15])[S:16][CH2:17][C@H:18]1[CH:19]([CH3:20])[CH3:21])[c:22]1[cH:23][o:24][c:25](/[CH:26]=[C:27](/[CH3:28])[CH:29]([CH3:30])[O:31][CH3:32])[n:33]1>C1CCOC1.Cc1cccc(C)n1>[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@@H:9]([CH2:10][C:11](=[O:12])[N:13]1[C:14](=[S:15])[S:16][CH2:17][C@H:18]1[CH:19]([CH3:20])[CH3:21])[c:22]1[cH:23][o:24][c:25](/[CH:26]=[C:27](/[CH3:28])[C@@H:29]([CH3:30])[O:31][CH3:32])[n:33]1",
+      "mapping_confidence": 0.37218435761051283
+    },
+    {
+      "reaction_id": "7",
+      "reaction_smiles": "CC[Si](CC)(CC)O[C@@H](CC(=O)N1C(=S)SC[C@H]1C(C)C)c1coc(/C=C(/C)[C@@H](C)OC)n1>>CC[Si](CC)(CC)O[C@@H](CC(=O)CP(=O)(OC)OC)c1coc(/C=C(/C)[C@@H](C)OC)n1",
+      "raw_description": "nBuLi; MeP(O)(OMe)2; THF; -78 \u00b0C; 82% (2 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "MeP(O)(OMe)2",
+          "nBuLi"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "82% (2 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "COP(=O)(C)OC",
+          "[Li]CCCC"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1",
+          "[Li+].CCC[CH2-]"
+        ]
+      },
+      "full_reaction_smiles": "CC[Si](CC)(CC)O[C@@H](CC(=O)N1C(=S)SC[C@H]1C(C)C)c1coc(/C=C(/C)[C@@H](C)OC)n1.COP(C)(=O)OC.C1CCOC1.[CH2-]CCC.[Li+]>>CC[Si](CC)(CC)O[C@@H](CC(=O)CP(=O)(OC)OC)c1coc(/C=C(/C)[C@@H](C)OC)n1",
+      "full_reaction_smiles_mapped": "CC(C)[C@@H]1CSC(=S)N1[C:11]([CH2:10][C@H:9]([O:8][Si:3]([CH2:2][CH3:1])([CH2:4][CH3:5])[CH2:6][CH3:7])[c:20]1[cH:21][o:22][c:23](/[CH:24]=[C:25](/[CH3:26])[C@@H:27]([CH3:28])[O:29][CH3:30])[n:31]1)=[O:12].[CH3:13][P:14](=[O:15])([O:16][CH3:17])[O:18][CH3:19]>C1CCOC1.[CH2-]CCC.[Li+]>[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@@H:9]([CH2:10][C:11](=[O:12])[CH2:13][P:14](=[O:15])([O:16][CH3:17])[O:18][CH3:19])[c:20]1[cH:21][o:22][c:23](/[CH:24]=[C:25](/[CH3:26])[C@@H:27]([CH3:28])[O:29][CH3:30])[n:31]1",
+      "mapping_confidence": 0.34394903429977813
+    },
+    {
+      "reaction_id": "8",
+      "reaction_smiles": "CC[Si](CC)(CC)O[C@@H](CC(=O)CP(=O)(OC)OC)c1coc(/C=C(/C)[C@@H](C)OC)n1>C=CCC1(C[C@@H](CC=O)O[Si](C)(C)C(C)(C)C)OCCO1>C=CCC1(C[C@@H](C/C=C/C(=O)C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "raw_description": "NaHMDS; THF; -78 to 0 \u00b0C; 99%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "NaHMDS"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "0"
+        ],
+        "YIELD": [
+          "99%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "CC[Si](CC)(CC)O[C@@H](CC(=O)CP(=O)(OC)OC)c1coc(/C=C(/C)[C@@H](C)OC)n1.C=CCC1(C[C@@H](CC=O)O[Si](C)(C)C(C)(C)C)OCCO1.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].C1CCOC1>>C=CCC1(C[C@@H](C/C=C/C(=O)C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "full_reaction_smiles_mapped": "O=[CH:8][CH2:7][C@H:6]([CH2:5][C:4]1([CH2:3][CH:2]=[CH2:1])[O:42][CH2:43][CH2:44][O:45]1)[O:34][Si:35]([CH3:36])([CH3:37])[C:38]([CH3:39])([CH3:40])[CH3:41].COP(=O)(OC)[CH2:9][C:10](=[O:11])[CH2:12][C@H:13]([O:14][Si:15]([CH2:16][CH3:17])([CH2:18][CH3:19])[CH2:20][CH3:21])[c:22]1[cH:23][o:24][c:25](/[CH:26]=[C:27](/[CH3:28])[C@@H:29]([CH3:30])[O:31][CH3:32])[n:33]1>C1CCOC1.C[Si](C)(C)[N-][Si](C)(C)C.[Na+]>[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@@H:6]([CH2:7]/[CH:8]=[CH:9]/[C:10](=[O:11])[CH2:12][C@H:13]([O:14][Si:15]([CH2:16][CH3:17])([CH2:18][CH3:19])[CH2:20][CH3:21])[c:22]2[cH:23][o:24][c:25](/[CH:26]=[C:27](/[CH3:28])[C@@H:29]([CH3:30])[O:31][CH3:32])[n:33]2)[O:34][Si:35]([CH3:36])([CH3:37])[C:38]([CH3:39])([CH3:40])[CH3:41])[O:42][CH2:43][CH2:44][O:45]1",
+      "mapping_confidence": 0.15254615228285293
+    },
+    {
+      "reaction_id": "9",
+      "reaction_smiles": "C=CCC1(C[C@@H](C/C=C/C(=O)C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)O[Si](C)(C)C(C)(C)C)OCCO1>c1ccc(P(c2ccccc2)c2ccccc2P(c2ccccc2)c2ccccc2)cc1>C=CCC1(C[C@@H](CCCC(=O)C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "raw_description": "Cu(OAc)2; PMHS; tBuOH; H2O; PhMe; 94%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "PMHS"
+        ],
+        "CATALYSTS": [
+          "Cu(OAc)2"
+        ],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "tBuOH",
+          "H2O",
+          "PhMe"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ],
+        "CATALYSTS_DEFINITIONS": [
+          "CC(=O)[O-].CC(=O)[O-].[Cu+2]"
+        ],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C[SiH](C)O.C[Si](C)(C)C.C[Si](C)(C)O"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CC(C)(C)O",
+          "O",
+          "CC1=CC=CC=C1"
+        ]
+      },
+      "full_reaction_smiles": "C=CCC1(C[C@@H](C/C=C/C(=O)C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)O[Si](C)(C)C(C)(C)C)OCCO1.c1ccc(P(c2ccccc2)c2ccccc2P(c2ccccc2)c2ccccc2)cc1.C[SiH](C)O.C[Si](C)(C)C.C[Si](C)(C)O.CC(=O)[O-].CC(=O)[O-].[Cu+2].CC(C)(C)O.O.Cc1ccccc1>>C=CCC1(C[C@@H](CCCC(=O)C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "full_reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@@H:6]([CH2:7]/[CH:8]=[CH:9]/[C:10](=[O:11])[CH2:12][C@H:13]([O:14][Si:15]([CH2:16][CH3:17])([CH2:18][CH3:19])[CH2:20][CH3:21])[c:22]2[cH:23][o:24][c:25](/[CH:26]=[C:27](/[CH3:28])[C@@H:29]([CH3:30])[O:31][CH3:32])[n:33]2)[O:34][Si:35]([CH3:36])([CH3:37])[C:38]([CH3:39])([CH3:40])[CH3:41])[O:42][CH2:43][CH2:44][O:45]1>CC(=O)[O-].CC(=O)[O-].CC(C)(C)O.C[SiH](C)O.C[Si](C)(C)C.C[Si](C)(C)O.Cc1ccccc1.O.[Cu+2].c1ccc(P(c2ccccc2)c2ccccc2P(c2ccccc2)c2ccccc2)cc1>[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@@H:6]([CH2:7][CH2:8][CH2:9][C:10](=[O:11])[CH2:12][C@H:13]([O:14][Si:15]([CH2:16][CH3:17])([CH2:18][CH3:19])[CH2:20][CH3:21])[c:22]2[cH:23][o:24][c:25](/[CH:26]=[C:27](/[CH3:28])[C@@H:29]([CH3:30])[O:31][CH3:32])[n:33]2)[O:34][Si:35]([CH3:36])([CH3:37])[C:38]([CH3:39])([CH3:40])[CH3:41])[O:42][CH2:43][CH2:44][O:45]1",
+      "mapping_confidence": 0.19086144429625646
+    },
+    {
+      "reaction_id": "10",
+      "reaction_smiles": "C=CCC1(C[C@@H](CCCC(=O)C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)O[Si](C)(C)C(C)(C)C)OCCO1>>C=CCC1(C[C@@H](CCC[C@H](O)C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "raw_description": "DIBAL-H; THF; -90 \u00b0C",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-90"
+        ],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "C=CCC1(C[C@@H](CCCC(=O)C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)O[Si](C)(C)C(C)(C)C)OCCO1.CC(C)C[AlH]CC(C)C.C1CCOC1>>C=CCC1(C[C@@H](CCC[C@H](O)C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "full_reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@@H:6]([CH2:7][CH2:8][CH2:9][C:10](=[O:11])[CH2:12][C@H:13]([O:14][Si:15]([CH2:16][CH3:17])([CH2:18][CH3:19])[CH2:20][CH3:21])[c:22]2[cH:23][o:24][c:25](/[CH:26]=[C:27](/[CH3:28])[C@@H:29]([CH3:30])[O:31][CH3:32])[n:33]2)[O:34][Si:35]([CH3:36])([CH3:37])[C:38]([CH3:39])([CH3:40])[CH3:41])[O:42][CH2:43][CH2:44][O:45]1>C1CCOC1.CC(C)C[AlH]CC(C)C>[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@@H:6]([CH2:7][CH2:8][CH2:9][C@H:10]([OH:11])[CH2:12][C@H:13]([O:14][Si:15]([CH2:16][CH3:17])([CH2:18][CH3:19])[CH2:20][CH3:21])[c:22]2[cH:23][o:24][c:25](/[CH:26]=[C:27](/[CH3:28])[C@@H:29]([CH3:30])[O:31][CH3:32])[n:33]2)[O:34][Si:35]([CH3:36])([CH3:37])[C:38]([CH3:39])([CH3:40])[CH3:41])[O:42][CH2:43][CH2:44][O:45]1",
+      "mapping_confidence": 0.21821877461288847
+    },
+    {
+      "reaction_id": "11",
+      "reaction_smiles": "C=CCC1(C[C@@H](CCC[C@H](O)C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)O[Si](C)(C)C(C)(C)C)OCCO1>>C=CCC1(C[C@@H](CCC[C@@H](C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "raw_description": "Ac2O; pyridine; DMAP; THF; -90 \u00b0C to rt",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF",
+          "Ac2O",
+          "pyridine",
+          "DMAP"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-90",
+          "23"
+        ],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1",
+          "CC(=O)OC(=O)C",
+          "C1=CC=NC=C1",
+          "CN(C)C1=CC=NC=C1"
+        ]
+      },
+      "full_reaction_smiles": "C=CCC1(C[C@@H](CCC[C@H](O)C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)O[Si](C)(C)C(C)(C)C)OCCO1.CN(C)c1ccncc1.C1CCOC1.CC(=O)OC(C)=O.c1ccncc1>>C=CCC1(C[C@@H](CCC[C@@H](C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "full_reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@@H:6]([CH2:7][CH2:8][CH2:9][C@@H:10]([CH2:11][C@H:12]([O:13][Si:14]([CH2:15][CH3:16])([CH2:17][CH3:18])[CH2:19][CH3:20])[c:21]2[cH:22][o:23][c:24](/[CH:25]=[C:26](/[CH3:27])[C@@H:28]([CH3:29])[O:30][CH3:31])[n:32]2)[OH:33])[O:37][Si:38]([CH3:39])([CH3:40])[C:41]([CH3:42])([CH3:43])[CH3:44])[O:45][CH2:46][CH2:47][O:48]1.CC(=O)O[C:34]([CH3:35])=[O:36]>C1CCOC1.CN(C)c1ccncc1.c1ccncc1>[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@@H:6]([CH2:7][CH2:8][CH2:9][C@@H:10]([CH2:11][C@H:12]([O:13][Si:14]([CH2:15][CH3:16])([CH2:17][CH3:18])[CH2:19][CH3:20])[c:21]2[cH:22][o:23][c:24](/[CH:25]=[C:26](/[CH3:27])[C@@H:28]([CH3:29])[O:30][CH3:31])[n:32]2)[O:33][C:34]([CH3:35])=[O:36])[O:37][Si:38]([CH3:39])([CH3:40])[C:41]([CH3:42])([CH3:43])[CH3:44])[O:45][CH2:46][CH2:47][O:48]1",
+      "mapping_confidence": 0.1428645195249371
+    },
+    {
+      "reaction_id": "12",
+      "reaction_smiles": "C=CCC1(C[C@@H](CCC[C@@H](C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1>>C=CCC1(C[C@@H](CCC[C@@H](C[C@H](O)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "raw_description": "AcOH; H2O; THF; 0 \u00b0C to rt; 68% (3 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": [
+          "68% (3 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "CC(=O)O"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1",
+          "O"
+        ]
+      },
+      "full_reaction_smiles": "C=CCC1(C[C@@H](CCC[C@@H](C[C@H](O[Si](CC)(CC)CC)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1.CC(=O)O.C1CCOC1.O>>C=CCC1(C[C@@H](CCC[C@@H](C[C@H](O)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "full_reaction_smiles_mapped": "CC[Si](CC)(CC)[O:13][C@@H:12]([CH2:11][C@H:10]([CH2:9][CH2:8][CH2:7][C@H:6]([CH2:5][C:4]1([CH2:3][CH:2]=[CH2:1])[O:38][CH2:39][CH2:40][O:41]1)[O:30][Si:31]([CH3:32])([CH3:33])[C:34]([CH3:35])([CH3:36])[CH3:37])[O:26][C:27]([CH3:28])=[O:29])[c:14]1[cH:15][o:16][c:17](/[CH:18]=[C:19](/[CH3:20])[C@@H:21]([CH3:22])[O:23][CH3:24])[n:25]1>C1CCOC1.CC(=O)O.O>[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@@H:6]([CH2:7][CH2:8][CH2:9][C@@H:10]([CH2:11][C@H:12]([OH:13])[c:14]2[cH:15][o:16][c:17](/[CH:18]=[C:19](/[CH3:20])[C@@H:21]([CH3:22])[O:23][CH3:24])[n:25]2)[O:26][C:27]([CH3:28])=[O:29])[O:30][Si:31]([CH3:32])([CH3:33])[C:34]([CH3:35])([CH3:36])[CH3:37])[O:38][CH2:39][CH2:40][O:41]1",
+      "mapping_confidence": 0.36018400579244175
+    },
+    {
+      "reaction_id": "13",
+      "reaction_smiles": "C=CCC1(C[C@@H](CCC[C@@H](C[C@H](O)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1>CC(C#C[C@@H](C)C[C@H](C)C(=O)O)OC(=O)c1ccccc1>C=CCC1(C[C@@H](CCC[C@@H](C[C@H](OC(=O)[C@@H](C)C[C@H](C)C#CC(C)OC(=O)c2ccccc2)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "raw_description": "TCBC; Et3N; DMAP; THF; PhMe; 0 \u00b0C to rt; 99%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "TCBC",
+          "Et3N"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF",
+          "PhMe",
+          "DMAP"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": [
+          "99%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C1=C(C=C(C(=C1Cl)CCl)Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1",
+          "CC1=CC=CC=C1",
+          "CN(C)C1=CC=NC=C1"
+        ]
+      },
+      "full_reaction_smiles": "C=CCC1(C[C@@H](CCC[C@@H](C[C@H](O)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1.CC(C#C[C@@H](C)C[C@H](C)C(=O)O)OC(=O)c1ccccc1.ClCc1c(Cl)cc(Cl)cc1Cl.CCN(CC)CC.C1CCOC1.Cc1ccccc1.CN(C)c1ccncc1>>C=CCC1(C[C@@H](CCC[C@@H](C[C@H](OC(=O)[C@@H](C)C[C@H](C)C#CC(C)OC(=O)c2ccccc2)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "full_reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@@H:6]([CH2:7][CH2:8][CH2:9][C@@H:10]([CH2:11][C@H:12]([OH:13])[c:34]2[cH:35][o:36][c:37](/[CH:38]=[C:39](/[CH3:40])[C@@H:41]([CH3:42])[O:43][CH3:44])[n:45]2)[O:46][C:47]([CH3:48])=[O:49])[O:50][Si:51]([CH3:52])([CH3:53])[C:54]([CH3:55])([CH3:56])[CH3:57])[O:58][CH2:59][CH2:60][O:61]1.O[C:14](=[O:15])[C@@H:16]([CH3:17])[CH2:18][C@H:19]([CH3:20])[C:21]#[C:22][CH:23]([CH3:24])[O:25][C:26](=[O:27])[c:28]1[cH:29][cH:30][cH:31][cH:32][cH:33]1>C1CCOC1.CCN(CC)CC.CN(C)c1ccncc1.Cc1ccccc1.ClCc1c(Cl)cc(Cl)cc1Cl>[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@@H:6]([CH2:7][CH2:8][CH2:9][C@@H:10]([CH2:11][C@H:12]([O:13][C:14](=[O:15])[C@@H:16]([CH3:17])[CH2:18][C@H:19]([CH3:20])[C:21]#[C:22][CH:23]([CH3:24])[O:25][C:26](=[O:27])[c:28]2[cH:29][cH:30][cH:31][cH:32][cH:33]2)[c:34]2[cH:35][o:36][c:37](/[CH:38]=[C:39](/[CH3:40])[C@@H:41]([CH3:42])[O:43][CH3:44])[n:45]2)[O:46][C:47]([CH3:48])=[O:49])[O:50][Si:51]([CH3:52])([CH3:53])[C:54]([CH3:55])([CH3:56])[CH3:57])[O:58][CH2:59][CH2:60][O:61]1",
+      "mapping_confidence": 0.27873719683098713
+    },
+    {
+      "reaction_id": "14",
+      "reaction_smiles": "C=CCC1(C[C@@H](CCC[C@@H](C[C@H](OC(=O)[C@@H](C)C[C@H](C)C#CC(C)OC(=O)c2ccccc2)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1>>C=CCC1(C[C@@H](CCC[C@@H](C[C@H](OC(=O)[C@@H](C)C[C@H](C)C(=O)/C=C/C)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "raw_description": "IPrAuCl; AgSbF6; THF; H2O; 80 \u00b0C; 62%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [],
+        "CATALYSTS": [
+          "IPrAuCl",
+          "AgSbF6"
+        ],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "62%"
+        ],
+        "CATALYSTS_DEFINITIONS": [
+          "CC(C)c1cccc(C(C)C)c1N2C=CN([C]2)c3c(cccc3C(C)C)C(C)C.[Au]Cl",
+          "F[Sb-](F)(F)(F)(F)F.[Ag+]"
+        ],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1",
+          "O"
+        ]
+      },
+      "full_reaction_smiles": "C=CCC1(C[C@@H](CCC[C@@H](C[C@H](OC(=O)[C@@H](C)C[C@H](C)C#CC(C)OC(=O)c2ccccc2)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1.CC(C)c1cccc(C(C)C)c1N1[C]N(c2c(C(C)C)cccc2C(C)C)C=C1.Cl[Au].F[Sb-](F)(F)(F)(F)F.[Ag+].C1CCOC1.O>>C=CCC1(C[C@@H](CCC[C@@H](C[C@H](OC(=O)[C@@H](C)C[C@H](C)C(=O)/C=C/C)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "full_reaction_smiles_mapped": "c1ccc(C(O[CH:24]([C:23]#[C:21][C@H:19]([CH2:18][C@@H:16]([C:14]([O:13][C@@H:12]([CH2:11][C@H:10]([CH2:9][CH2:8][CH2:7][C@H:6]([CH2:5][C:4]2([CH2:3][CH:2]=[CH2:1])[O:50][CH2:51][CH2:52][O:53]2)[O:42][Si:43]([CH3:44])([CH3:45])[C:46]([CH3:47])([CH3:48])[CH3:49])[O:38][C:39]([CH3:40])=[O:41])[c:26]2[cH:27][o:28][c:29](/[CH:30]=[C:31](/[CH3:32])[C@@H:33]([CH3:34])[O:35][CH3:36])[n:37]2)=[O:15])[CH3:17])[CH3:20])[CH3:25])=[O:22])cc1>C1CCOC1.CC(C)c1cccc(C(C)C)c1N1[C]N(c2c(C(C)C)cccc2C(C)C)C=C1.Cl[Au].F[Sb-](F)(F)(F)(F)F.O.[Ag+]>[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@@H:6]([CH2:7][CH2:8][CH2:9][C@@H:10]([CH2:11][C@H:12]([O:13][C:14](=[O:15])[C@@H:16]([CH3:17])[CH2:18][C@H:19]([CH3:20])[C:21](=[O:22])/[CH:23]=[CH:24]/[CH3:25])[c:26]2[cH:27][o:28][c:29](/[CH:30]=[C:31](/[CH3:32])[C@@H:33]([CH3:34])[O:35][CH3:36])[n:37]2)[O:38][C:39]([CH3:40])=[O:41])[O:42][Si:43]([CH3:44])([CH3:45])[C:46]([CH3:47])([CH3:48])[CH3:49])[O:50][CH2:51][CH2:52][O:53]1",
+      "mapping_confidence": 0.2050927377941082
+    },
+    {
+      "reaction_id": "15",
+      "reaction_smiles": "C=CCC1(C[C@@H](CCC[C@@H](C[C@H](OC(=O)[C@@H](C)C[C@H](C)C(=O)/C=C/C)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1>>CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H](O[Si](C)(C)C(C)(C)C)CC3(C/C=C/C(=O)[C@@H](C)C[C@H](C)C(=O)O2)OCCO3)co1",
+      "raw_description": "G-II; CH2Cl2; reflux; 87%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [],
+        "CATALYSTS": [
+          "G-II"
+        ],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "87%"
+        ],
+        "CATALYSTS_DEFINITIONS": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C.C1CCC(CC1)[PH+](C2CCCCC2)C3CCCCC3"
+        ],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [],
+        "SOLVENTS_DEFINITIONS": [
+          "C(Cl)Cl"
+        ]
+      },
+      "full_reaction_smiles": "C=CCC1(C[C@@H](CCC[C@@H](C[C@H](OC(=O)[C@@H](C)C[C@H](C)C(=O)/C=C/C)c2coc(/C=C(/C)[C@@H](C)OC)n2)OC(C)=O)O[Si](C)(C)C(C)(C)C)OCCO1.C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.ClCCl>>CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H](O[Si](C)(C)C(C)(C)C)CC3(C/C=C/C(=O)[C@@H](C)C[C@H](C)C(=O)O2)OCCO3)co1",
+      "full_reaction_smiles_mapped": "C=[CH:33][CH2:32][C:31]1([CH2:30][C@@H:21]([CH2:20][CH2:19][CH2:18][C@@H:13]([CH2:12][C@@H:11]([c:10]2[n:9][c:8](/[CH:7]=[C:5](\\[C@H:3]([O:2][CH3:1])[CH3:4])[CH3:6])[o:50][cH:49]2)[O:44][C:42]([C@H:40]([CH2:39][C@@H:37]([C:35](/[CH:34]=C/C)=[O:36])[CH3:38])[CH3:41])=[O:43])[O:14][C:15]([CH3:16])=[O:17])[O:22][Si:23]([CH3:24])([CH3:25])[C:26]([CH3:27])([CH3:28])[CH3:29])[O:45][CH2:46][CH2:47][O:48]1>C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.ClCCl>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@@H:11]2[CH2:12][C@@H:13]([O:14][C:15]([CH3:16])=[O:17])[CH2:18][CH2:19][CH2:20][C@@H:21]([O:22][Si:23]([CH3:24])([CH3:25])[C:26]([CH3:27])([CH3:28])[CH3:29])[CH2:30][C:31]3([CH2:32]/[CH:33]=[CH:34]/[C:35](=[O:36])[C@@H:37]([CH3:38])[CH2:39][C@H:40]([CH3:41])[C:42](=[O:43])[O:44]2)[O:45][CH2:46][CH2:47][O:48]3)[cH:49][o:50]1",
+      "mapping_confidence": 0.18515828450299632
+    },
+    {
+      "reaction_id": "16",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H](O[Si](C)(C)C(C)(C)C)CC3(C/C=C/C(=O)[C@@H](C)C[C@H](C)C(=O)O2)OCCO3)co1>>CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC4(C[C@H](CC(=O)[C@@H](C)C[C@H](C)C(=O)O2)O3)OCCO4)co1",
+      "raw_description": "HF; H2O; MeCN; THF; -20 to -3 \u00b0C; 75%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "HF"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "H2O",
+          "MeCN",
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20",
+          "-3"
+        ],
+        "YIELD": [
+          "75%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "F"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "O",
+          "CC#N",
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H](O[Si](C)(C)C(C)(C)C)CC3(C/C=C/C(=O)[C@@H](C)C[C@H](C)C(=O)O2)OCCO3)co1.F.O.CC#N.C1CCOC1>>CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC4(C[C@H](CC(=O)[C@@H](C)C[C@H](C)C(=O)O2)O3)OCCO4)co1",
+      "full_reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:37][C@@H:21]1[CH2:20][CH2:19][CH2:18][C@H:13]([O:14][C:15]([CH3:16])=[O:17])[CH2:12][C@@H:11]([c:10]2[n:9][c:8](/[CH:7]=[C:5](\\[C@H:3]([O:2][CH3:1])[CH3:4])[CH3:6])[o:43][cH:42]2)[O:36][C:34](=[O:35])[C@@H:32]([CH3:33])[CH2:31][C@H:29]([CH3:30])[C:27](=[O:28])/[CH:26]=[CH:25]/[CH2:24][C:23]2([CH2:22]1)[O:38][CH2:39][CH2:40][O:41]2>C1CCOC1.CC#N.F.O>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@@H:11]2[CH2:12][C@@H:13]([O:14][C:15]([CH3:16])=[O:17])[CH2:18][CH2:19][CH2:20][C@@H:21]3[CH2:22][C:23]4([CH2:24][C@H:25]([CH2:26][C:27](=[O:28])[C@@H:29]([CH3:30])[CH2:31][C@H:32]([CH3:33])[C:34](=[O:35])[O:36]2)[O:37]3)[O:38][CH2:39][CH2:40][O:41]4)[cH:42][o:43]1",
+      "mapping_confidence": 0.9517995320053844
+    },
+    {
+      "reaction_id": "17",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC4(C[C@H](CC(=O)[C@@H](C)C[C@H](C)C(=O)O2)O3)OCCO4)co1>>CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC4(C[C@H](C[C@H](O)[C@@H](C)C[C@H](C)C(=O)O2)O3)OCCO4)co1",
+      "raw_description": "NaBH4; MeOH; -78 \u00b0C; 64%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "64%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[BH4-].[Na+]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CO"
+        ]
+      },
+      "full_reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC4(C[C@H](CC(=O)[C@@H](C)C[C@H](C)C(=O)O2)O3)OCCO4)co1.[BH4-].[Na+].CO>>CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC4(C[C@H](C[C@H](O)[C@@H](C)C[C@H](C)C(=O)O2)O3)OCCO4)co1",
+      "full_reaction_smiles_mapped": "[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@@H:11]2[CH2:12][C@@H:13]([O:14][C:15]([CH3:16])=[O:17])[CH2:18][CH2:19][CH2:20][C@@H:21]3[CH2:22][C:23]4([CH2:24][C@H:25]([CH2:26][C:27](=[O:28])[C@@H:29]([CH3:30])[CH2:31][C@H:32]([CH3:33])[C:34](=[O:35])[O:36]2)[O:37]3)[O:38][CH2:39][CH2:40][O:41]4)[cH:42][o:43]1>CO.[BH4-].[Na+]>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@@H:11]2[CH2:12][C@@H:13]([O:14][C:15]([CH3:16])=[O:17])[CH2:18][CH2:19][CH2:20][C@@H:21]3[CH2:22][C:23]4([CH2:24][C@H:25]([CH2:26][C@H:27]([OH:28])[C@@H:29]([CH3:30])[CH2:31][C@H:32]([CH3:33])[C:34](=[O:35])[O:36]2)[O:37]3)[O:38][CH2:39][CH2:40][O:41]4)[cH:42][o:43]1",
+      "mapping_confidence": 0.9658320406895177
+    },
+    {
+      "reaction_id": "18",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC4(C[C@H](C[C@H](O)[C@@H](C)C[C@H](C)C(=O)O2)O3)OCCO4)co1>CC(C)N(C(C)C)P(OC1c2ccccc2-c2ccccc21)OC1c2ccccc2-c2ccccc21>CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC4(C[C@H](C[C@H](OP(=O)(OC5c6ccccc6-c6ccccc65)OC5c6ccccc6-c6ccccc65)[C@@H](C)C[C@H](C)C(=O)O2)O3)OCCO4)co1",
+      "raw_description": "1) 1H-tetrazole; MeCN; CH2Cl2; 2) H2O2; H2O; 0 \u00b0C; 82%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "1H-tetrazole",
+          "H2O2"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "MeCN",
+          "CH2Cl2",
+          "H2O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "82%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "c1[nH]nnn1",
+          "OO"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CC#N",
+          "C(Cl)Cl",
+          "O"
+        ]
+      },
+      "full_reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC4(C[C@H](C[C@H](O)[C@@H](C)C[C@H](C)C(=O)O2)O3)OCCO4)co1.CC(C)N(C(C)C)P(OC1c2ccccc2-c2ccccc21)OC1c2ccccc2-c2ccccc21.c1nnn[nH]1.OO.CC#N.ClCCl.O>>CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC4(C[C@H](C[C@H](OP(=O)(OC5c6ccccc6-c6ccccc65)OC5c6ccccc6-c6ccccc65)[C@@H](C)C[C@H](C)C(=O)O2)O3)OCCO4)co1",
+      "full_reaction_smiles_mapped": "CC(C)N(C(C)C)[P:29]([O:31][CH:32]1[c:33]2[cH:34][cH:35][cH:36][cH:37][c:38]2-[c:39]2[cH:40][cH:41][cH:42][cH:43][c:44]21)[O:45][CH:46]1[c:47]2[cH:48][cH:49][cH:50][cH:51][c:52]2-[c:53]2[cH:54][cH:55][cH:56][cH:57][c:58]21.[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@@H:11]2[CH2:12][C@@H:13]([O:14][C:15]([CH3:16])=[O:17])[CH2:18][CH2:19][CH2:20][C@@H:21]3[CH2:22][C:23]4([CH2:24][C@H:25]([CH2:26][C@H:27]([OH:28])[C@@H:59]([CH3:60])[CH2:61][C@H:62]([CH3:63])[C:64](=[O:65])[O:66]2)[O:67]3)[O:68][CH2:69][CH2:70][O:71]4)[cH:72][o:73]1.O[OH:30]>CC#N.ClCCl.O.c1nnn[nH]1>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@@H:11]2[CH2:12][C@@H:13]([O:14][C:15]([CH3:16])=[O:17])[CH2:18][CH2:19][CH2:20][C@@H:21]3[CH2:22][C:23]4([CH2:24][C@H:25]([CH2:26][C@H:27]([O:28][P:29](=[O:30])([O:31][CH:32]5[c:33]6[cH:34][cH:35][cH:36][cH:37][c:38]6-[c:39]6[cH:40][cH:41][cH:42][cH:43][c:44]65)[O:45][CH:46]5[c:47]6[cH:48][cH:49][cH:50][cH:51][c:52]6-[c:53]6[cH:54][cH:55][cH:56][cH:57][c:58]65)[C@@H:59]([CH3:60])[CH2:61][C@H:62]([CH3:63])[C:64](=[O:65])[O:66]2)[O:67]3)[O:68][CH2:69][CH2:70][O:71]4)[cH:72][o:73]1",
+      "mapping_confidence": 0.15136114191533165
+    },
+    {
+      "reaction_id": "19",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC4(C[C@H](C[C@H](OP(=O)(OC5c6ccccc6-c6ccccc65)OC5c6ccccc6-c6ccccc65)[C@@H](C)C[C@H](C)C(=O)O2)O3)OCCO4)co1>>CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC(=O)C[C@H](C[C@H](OP(=O)(OC4c5ccccc5-c5ccccc54)OC4c5ccccc5-c5ccccc54)[C@@H](C)C[C@H](C)C(=O)O2)O3)co1",
+      "raw_description": "CSA; acetone; 60 \u00b0C; 81%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [],
+        "CATALYSTS": [
+          "CSA"
+        ],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "81%"
+        ],
+        "CATALYSTS_DEFINITIONS": [
+          "CC1(C)C2CCC1(CS(=O)(O)=O)C(C2)=O"
+        ],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [],
+        "SOLVENTS_DEFINITIONS": [
+          "CC(=O)C"
+        ]
+      },
+      "full_reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC4(C[C@H](C[C@H](OP(=O)(OC5c6ccccc6-c6ccccc65)OC5c6ccccc6-c6ccccc65)[C@@H](C)C[C@H](C)C(=O)O2)O3)OCCO4)co1.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.CC(C)=O>>CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC(=O)C[C@H](C[C@H](OP(=O)(OC4c5ccccc5-c5ccccc54)OC4c5ccccc5-c5ccccc54)[C@@H](C)C[C@H](C)C(=O)O2)O3)co1",
+      "full_reaction_smiles_mapped": "C1CO[C:23]2(O1)[CH2:22][C@H:21]1[CH2:20][CH2:19][CH2:18][C@H:13]([O:14][C:15]([CH3:16])=[O:17])[CH2:12][C@@H:11]([c:10]3[n:9][c:8](/[CH:7]=[C:5](\\[C@H:3]([O:2][CH3:1])[CH3:4])[CH3:6])[o:70][cH:69]3)[O:67][C:65](=[O:66])[C@@H:63]([CH3:64])[CH2:62][C@H:60]([CH3:61])[C@@H:28]([O:29][P:30](=[O:31])([O:32][CH:33]3[c:34]4[cH:35][cH:36][cH:37][cH:38][c:39]4-[c:40]4[cH:41][cH:42][cH:43][cH:44][c:45]43)[O:46][CH:47]3[c:48]4[cH:49][cH:50][cH:51][cH:52][c:53]4-[c:54]4[cH:55][cH:56][cH:57][cH:58][c:59]43)[CH2:27][C@@H:26]([CH2:25]2)[O:68]1>CC(C)=O.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@@H:11]2[CH2:12][C@@H:13]([O:14][C:15]([CH3:16])=[O:17])[CH2:18][CH2:19][CH2:20][C@@H:21]3[CH2:22][C:23](=[O:24])[CH2:25][C@H:26]([CH2:27][C@H:28]([O:29][P:30](=[O:31])([O:32][CH:33]4[c:34]5[cH:35][cH:36][cH:37][cH:38][c:39]5-[c:40]5[cH:41][cH:42][cH:43][cH:44][c:45]54)[O:46][CH:47]4[c:48]5[cH:49][cH:50][cH:51][cH:52][c:53]5-[c:54]5[cH:55][cH:56][cH:57][cH:58][c:59]54)[C@@H:60]([CH3:61])[CH2:62][C@H:63]([CH3:64])[C:65](=[O:66])[O:67]2)[O:68]3)[cH:69][o:70]1",
+      "mapping_confidence": "manual mapping check"
+    },
+    {
+      "reaction_id": "20",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC(=O)C[C@H](C[C@H](OP(=O)(OC4c5ccccc5-c5ccccc54)OC4c5ccccc5-c5ccccc54)[C@@H](C)C[C@H](C)C(=O)O2)O3)co1>>C=C1C[C@H]2CCC[C@H](OC(C)=O)C[C@@H](c3coc(/C=C(/C)[C@@H](C)OC)n3)OC(=O)[C@@H](C)C[C@H](C)[C@@H](OP(=O)(OC3c4ccccc4-c4ccccc43)OC3c4ccccc4-c4ccccc43)C[C@@H](C1)O2",
+      "raw_description": "TiCl4; Zn; PbCl2; CH2I2; THF; 0 \u00b0C to rt; 65%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "CH2I2"
+        ],
+        "CATALYSTS": [
+          "TiCl4",
+          "Zn",
+          "PbCl2"
+        ],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": [
+          "65%"
+        ],
+        "CATALYSTS_DEFINITIONS": [
+          "Cl[Ti](Cl)(Cl)Cl",
+          "[Zn]",
+          "Cl[Pb]Cl"
+        ],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C(I)I"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC(=O)C[C@H](C[C@H](OP(=O)(OC4c5ccccc5-c5ccccc54)OC4c5ccccc5-c5ccccc54)[C@@H](C)C[C@H](C)C(=O)O2)O3)co1.ICI.Cl[Ti](Cl)(Cl)Cl.[Zn].Cl[Pb]Cl.C1CCOC1>>C=C1C[C@H]2CCC[C@H](OC(C)=O)C[C@@H](c3coc(/C=C(/C)[C@@H](C)OC)n3)OC(=O)[C@@H](C)C[C@H](C)[C@@H](OP(=O)(OC3c4ccccc4-c4ccccc43)OC3c4ccccc4-c4ccccc43)C[C@@H](C1)O2",
+      "full_reaction_smiles_mapped": "O=[C:2]1[CH2:3][C@H:4]2[CH2:5][CH2:6][CH2:7][C@H:8]([O:9][C:10]([CH3:11])=[O:12])[CH2:13][C@@H:14]([c:15]3[cH:16][o:17][c:18](/[CH:19]=[C:20](/[CH3:21])[C@@H:22]([CH3:23])[O:24][CH3:25])[n:26]3)[O:27][C:28](=[O:29])[C@@H:30]([CH3:31])[CH2:32][C@H:33]([CH3:34])[C@@H:35]([O:36][P:37](=[O:38])([O:39][CH:40]3[c:41]4[cH:42][cH:43][cH:44][cH:45][c:46]4-[c:47]4[cH:48][cH:49][cH:50][cH:51][c:52]43)[O:53][CH:54]3[c:55]4[cH:56][cH:57][cH:58][cH:59][c:60]4-[c:61]4[cH:62][cH:63][cH:64][cH:65][c:66]43)[CH2:67][C@@H:68]([CH2:69]1)[O:70]2.I[CH2:1]I>C1CCOC1.Cl[Pb]Cl.Cl[Ti](Cl)(Cl)Cl.[Zn]>[CH2:1]=[C:2]1[CH2:3][C@H:4]2[CH2:5][CH2:6][CH2:7][C@H:8]([O:9][C:10]([CH3:11])=[O:12])[CH2:13][C@@H:14]([c:15]3[cH:16][o:17][c:18](/[CH:19]=[C:20](/[CH3:21])[C@@H:22]([CH3:23])[O:24][CH3:25])[n:26]3)[O:27][C:28](=[O:29])[C@@H:30]([CH3:31])[CH2:32][C@H:33]([CH3:34])[C@@H:35]([O:36][P:37](=[O:38])([O:39][CH:40]3[c:41]4[cH:42][cH:43][cH:44][cH:45][c:46]4-[c:47]4[cH:48][cH:49][cH:50][cH:51][c:52]43)[O:53][CH:54]3[c:55]4[cH:56][cH:57][cH:58][cH:59][c:60]4-[c:61]4[cH:62][cH:63][cH:64][cH:65][c:66]43)[CH2:67][C@@H:68]([CH2:69]1)[O:70]2",
+      "mapping_confidence": 0.26655505697820403
+    },
+    {
+      "reaction_id": "21",
+      "reaction_smiles": "C=C1C[C@H]2CCC[C@H](OC(C)=O)C[C@@H](c3coc(/C=C(/C)[C@@H](C)OC)n3)OC(=O)[C@@H](C)C[C@H](C)[C@@H](OP(=O)(OC3c4ccccc4-c4ccccc43)OC3c4ccccc4-c4ccccc43)C[C@@H](C1)O2>>C=C1C[C@H]2CCC[C@H](O)C[C@@H](c3coc(/C=C(/C)[C@@H](C)OC)n3)OC(=O)[C@@H](C)C[C@H](C)[C@@H](OP(=O)(O)O)C[C@@H](C1)O2",
+      "raw_description": "K2CO3; MeOH; H2O; 91%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "MeOH",
+          "H2O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CO",
+          "O"
+        ]
+      },
+      "full_reaction_smiles": "C=C1C[C@H]2CCC[C@H](OC(C)=O)C[C@@H](c3coc(/C=C(/C)[C@@H](C)OC)n3)OC(=O)[C@@H](C)C[C@H](C)[C@@H](OP(=O)(OC3c4ccccc4-c4ccccc43)OC3c4ccccc4-c4ccccc43)C[C@@H](C1)O2.O=C([O-])[O-].[K+].[K+].CO.O>>C=C1C[C@H]2CCC[C@H](O)C[C@@H](c3coc(/C=C(/C)[C@@H](C)OC)n3)OC(=O)[C@@H](C)C[C@H](C)[C@@H](OP(=O)(O)O)C[C@@H](C1)O2",
+      "full_reaction_smiles_mapped": "CC(=O)[O:9][C@H:8]1[CH2:7][CH2:6][CH2:5][C@@H:4]2[CH2:3][C:2](=[CH2:1])[CH2:40][C@H:39]([CH2:38][C@H:32]([O:33][P:34](=[O:35])([O:36]C3c4ccccc4-c4ccccc43)[O:37]C3c4ccccc4-c4ccccc43)[C@@H:30]([CH3:31])[CH2:29][C@H:27]([CH3:28])[C:25](=[O:26])[O:24][C@H:11]([c:12]3[cH:13][o:14][c:15](/[CH:16]=[C:17](/[CH3:18])[C@@H:19]([CH3:20])[O:21][CH3:22])[n:23]3)[CH2:10]1)[O:41]2>CO.O.O=C([O-])[O-].[K+].[K+]>[CH2:1]=[C:2]1[CH2:3][C@H:4]2[CH2:5][CH2:6][CH2:7][C@H:8]([OH:9])[CH2:10][C@@H:11]([c:12]3[cH:13][o:14][c:15](/[CH:16]=[C:17](/[CH3:18])[C@@H:19]([CH3:20])[O:21][CH3:22])[n:23]3)[O:24][C:25](=[O:26])[C@@H:27]([CH3:28])[CH2:29][C@H:30]([CH3:31])[C@@H:32]([O:33][P:34](=[O:35])([OH:36])[OH:37])[CH2:38][C@@H:39]([CH2:40]1)[O:41]2",
+      "mapping_confidence": 0.6278899542550008
+    },
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "OCCC1(CCO)OCCO1>>OC1CC2(CCO1)OCCO2",
+      "raw_description": "IBX; DMSO; THF",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "IBX"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "DMSO",
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C1=CC=C2C(=C1)C(=O)OI2(=O)O"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CS(=O)C",
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "OCCC1(CCO)OCCO1.O=C1OI(=O)(O)c2ccccc21.CS(C)=O.C1CCOC1>>OC1CC2(CCO1)OCCO2",
+      "full_reaction_smiles_mapped": "[OH:1][CH2:2][CH2:3][C:4]1([CH2:5][CH2:6][OH:7])[O:8][CH2:9][CH2:10][O:11]1>C1CCOC1.CS(C)=O.O=C1OI(=O)(O)c2ccccc21>[OH:1][CH:2]1[CH2:3][C:4]2([CH2:5][CH2:6][O:7]1)[O:8][CH2:9][CH2:10][O:11]2",
+      "mapping_confidence": 0.6382948357558978
+    },
+    {
+      "reaction_id": "2",
+      "reaction_smiles": "OC1CC2(CCO1)OCCO2>>C=CCC1(CCO)OCCO1",
+      "raw_description": "Ph3P=CH2; KOtBu; THF; 0 \u00b0C to rt; 55% (2 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "Ph3P=CH2",
+          "KOtBu"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": [
+          "55% (2 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[CH2-][P+](c1ccccc1)(c1ccccc1)c1ccccc1",
+          "CC(C)(C)O[K]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "OC1CC2(CCO1)OCCO2.[CH2-][P+](c1ccccc1)(c1ccccc1)c1ccccc1.CC(C)(C)O[K].C1CCOC1>>C=CCC1(CCO)OCCO1",
+      "full_reaction_smiles_mapped": "O[CH:2]1[CH2:3][C:4]2([CH2:5][CH2:6][O:7]1)[O:8][CH2:9][CH2:10][O:11]2.c1ccc([P+](c2ccccc2)(c2ccccc2)[CH2-:1])cc1>C1CCOC1.CC(C)(C)O[K]>[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][CH2:6][OH:7])[O:8][CH2:9][CH2:10][O:11]1",
+      "mapping_confidence": 0.6130856077380896
+    },
+    {
+      "reaction_id": "3",
+      "reaction_smiles": "C=CCC1(CCO)OCCO1>>C=CCC1(CC=O)OCCO1",
+      "raw_description": "IBX; DMSO; THF",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "IBX"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "DMSO",
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C1=CC=C2C(=C1)C(=O)OI2(=O)O"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CS(=O)C",
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "C=CCC1(CCO)OCCO1.O=C1OI(=O)(O)c2ccccc21.CS(C)=O.C1CCOC1>>C=CCC1(CC=O)OCCO1",
+      "full_reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][CH2:6][OH:7])[O:8][CH2:9][CH2:10][O:11]1>C1CCOC1.CS(C)=O.O=C1OI(=O)(O)c2ccccc21>[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][CH:6]=[O:7])[O:8][CH2:9][CH2:10][O:11]1",
+      "mapping_confidence": 0.8408187797388041
+    },
+    {
+      "reaction_id": "4",
+      "reaction_smiles": "C=CCC1(CC=O)OCCO1>CC(=O)N1C(=S)SC[C@@H]1C(C)C>C=CCC1(C[C@H](O)CC(=O)N2C(=S)SC[C@@H]2C(C)C)OCCO1",
+      "raw_description": "TiCl4; DIPEA; CH2Cl2; -40 to -78 \u00b0C; 78% (2 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [],
+        "CATALYSTS": [
+          "TiCl4"
+        ],
+        "LIGANDS": [
+          "DIPEA"
+        ],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-40",
+          "-78"
+        ],
+        "YIELD": [
+          "78% (2 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [
+          "Cl[Ti](Cl)(Cl)Cl"
+        ],
+        "LIGANDS_DEFINITIONS": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "GENERAL_REAGENTS_DEFINITIONS": [],
+        "SOLVENTS_DEFINITIONS": [
+          "C(Cl)Cl"
+        ]
+      },
+      "full_reaction_smiles": "C=CCC1(CC=O)OCCO1.CC(=O)N1C(=S)SC[C@@H]1C(C)C.Cl[Ti](Cl)(Cl)Cl.CCN(C(C)C)C(C)C.ClCCl>>C=CCC1(C[C@H](O)CC(=O)N2C(=S)SC[C@@H]2C(C)C)OCCO1",
+      "full_reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][CH:6]=[O:7])[O:20][CH2:21][CH2:22][O:23]1.[CH3:8][C:9](=[O:10])[N:11]1[C:12](=[S:13])[S:14][CH2:15][C@@H:16]1[CH:17]([CH3:18])[CH3:19]>CCN(C(C)C)C(C)C.ClCCl.Cl[Ti](Cl)(Cl)Cl>[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@H:6]([OH:7])[CH2:8][C:9](=[O:10])[N:11]2[C:12](=[S:13])[S:14][CH2:15][C@@H:16]2[CH:17]([CH3:18])[CH3:19])[O:20][CH2:21][CH2:22][O:23]1",
+      "mapping_confidence": 0.7593706368605777
+    },
+    {
+      "reaction_id": "5",
+      "reaction_smiles": "C=CCC1(C[C@H](O)CC(=O)N2C(=S)SC[C@@H]2C(C)C)OCCO1>>C=CCC1(C[C@@H](CC(=O)N2C(=S)SC[C@@H]2C(C)C)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "raw_description": "TBSOTf; 2,6-lutidine; CH2Cl2; -78 \u00b0C; 93%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "TBSOTf"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "2,6-lutidine"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "93%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C(Cl)Cl",
+          "Cc1cccc(C)n1"
+        ]
+      },
+      "full_reaction_smiles": "C=CCC1(C[C@H](O)CC(=O)N2C(=S)SC[C@@H]2C(C)C)OCCO1.CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F.ClCCl.Cc1cccc(C)n1>>C=CCC1(C[C@@H](CC(=O)N2C(=S)SC[C@@H]2C(C)C)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "full_reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@@H:6]([CH2:7][C:8](=[O:9])[N:10]2[C:11](=[S:12])[S:13][CH2:14][C@@H:15]2[CH:16]([CH3:17])[CH3:18])[OH:19])[O:27][CH2:28][CH2:29][O:30]1.O=S(=O)(O[Si:20]([CH3:21])([CH3:22])[C:23]([CH3:24])([CH3:25])[CH3:26])C(F)(F)F>Cc1cccc(C)n1.ClCCl>[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@@H:6]([CH2:7][C:8](=[O:9])[N:10]2[C:11](=[S:12])[S:13][CH2:14][C@@H:15]2[CH:16]([CH3:17])[CH3:18])[O:19][Si:20]([CH3:21])([CH3:22])[C:23]([CH3:24])([CH3:25])[CH3:26])[O:27][CH2:28][CH2:29][O:30]1",
+      "mapping_confidence": 0.18957981724371978
+    },
+    {
+      "reaction_id": "6",
+      "reaction_smiles": "C=CCC1(C[C@@H](CC(=O)N2C(=S)SC[C@@H]2C(C)C)O[Si](C)(C)C(C)(C)C)OCCO1>>C=CCC1(C[C@@H](CC=O)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "raw_description": "DIBAL-H; CH2Cl2; -78 \u00b0C; 91%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "91%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C(Cl)Cl"
+        ]
+      },
+      "full_reaction_smiles": "C=CCC1(C[C@@H](CC(=O)N2C(=S)SC[C@@H]2C(C)C)O[Si](C)(C)C(C)(C)C)OCCO1.CC(C)C[AlH]CC(C)C.ClCCl>>C=CCC1(C[C@@H](CC=O)O[Si](C)(C)C(C)(C)C)OCCO1",
+      "full_reaction_smiles_mapped": "CC(C)[C@H]1CSC(=S)N1[C:8]([CH2:7][C@H:6]([CH2:5][C:4]1([CH2:3][CH:2]=[CH2:1])[O:18][CH2:19][CH2:20][O:21]1)[O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17])=[O:9]>CC(C)C[AlH]CC(C)C.ClCCl>[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C@@H:6]([CH2:7][CH:8]=[O:9])[O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[O:18][CH2:19][CH2:20][O:21]1",
+      "mapping_confidence": 0.3222166731681999
+    },
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "COC(=O)[C@H](C)CO>>COC(=O)[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "raw_description": "TBDPSCl; imidazole; CH2Cl2; 0 \u00b0C to rt",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "TBDPSCl",
+          "imidazole"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "CC(C)(C)[Si](C1=CC=CC=C1)(C2=CC=CC=C2)Cl",
+          "C1=CN=CN1"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C(Cl)Cl"
+        ]
+      },
+      "full_reaction_smiles": "COC(=O)[C@H](C)CO.CC(C)(C)[Si](Cl)(c1ccccc1)c1ccccc1.c1c[nH]cn1.ClCCl>>COC(=O)[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "full_reaction_smiles_mapped": "Cl[Si:9]([c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1)([c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1)[C:22]([CH3:23])([CH3:24])[CH3:25].[CH3:1][O:2][C:3](=[O:4])[C@H:5]([CH3:6])[CH2:7][OH:8]>ClCCl.c1c[nH]cn1>[CH3:1][O:2][C:3](=[O:4])[C@H:5]([CH3:6])[CH2:7][O:8][Si:9]([c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1)([c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1)[C:22]([CH3:23])([CH3:24])[CH3:25]",
+      "mapping_confidence": 0.2209870468175677
+    },
+    {
+      "reaction_id": "2",
+      "reaction_smiles": "COC(=O)[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C>>C[C@@H](CO)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "raw_description": "DIBAL-H; THF; -78 \u00b0C to rt",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "23"
+        ],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "COC(=O)[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.CC(C)C[AlH]CC(C)C.C1CCOC1>>C[C@@H](CO)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "full_reaction_smiles_mapped": "CO[C:3]([C@H:2]([CH3:1])[CH2:5][O:6][Si:7]([c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1)([c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)[C:20]([CH3:21])([CH3:22])[CH3:23])=[O:4]>C1CCOC1.CC(C)C[AlH]CC(C)C>[CH3:1][C@@H:2]([CH2:3][OH:4])[CH2:5][O:6][Si:7]([c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1)([c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)[C:20]([CH3:21])([CH3:22])[CH3:23]",
+      "mapping_confidence": 0.1766777133254635
+    },
+    {
+      "reaction_id": "3",
+      "reaction_smiles": "C[C@@H](CO)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C>>C[C@@H](CI)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "raw_description": "I2; PPh3; imidazole; THF; 0 \u00b0C to rt; 89% (3 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "I2",
+          "imidazole"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": [
+          "89% (3 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "II",
+          "C1=CN=CN1"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "C[C@@H](CO)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.II.c1c[nH]cn1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>>C[C@@H](CI)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "full_reaction_smiles_mapped": "O[CH2:3][C@H:2]([CH3:1])[CH2:5][O:6][Si:7]([c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1)([c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)[C:20]([CH3:21])([CH3:22])[CH3:23].I[I:4]>C1CCOC1.c1c[nH]cn1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C@@H:2]([CH2:3][I:4])[CH2:5][O:6][Si:7]([c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1)([c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)[C:20]([CH3:21])([CH3:22])[CH3:23]",
+      "mapping_confidence": 0.11870328058011398
+    },
+    {
+      "reaction_id": "4",
+      "reaction_smiles": "C[C@@H](CI)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C>CCC(=O)N(C)[C@H](C)[C@H](O)c1ccccc1>C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@H](C)C(=O)N(C)[C@H](C)[C@H](O)c1ccccc1",
+      "raw_description": "LDA; LiCl; THF; 0 \u00b0C to rt",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "LiCl",
+          "LDA"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[Li+].[Cl-]",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "C[C@@H](CI)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.CCC(=O)N(C)[C@H](C)[C@H](O)c1ccccc1.[Cl-].[Li+].[Li]N(C(C)C)C(C)C.C1CCOC1>>C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@H](C)C(=O)N(C)[C@H](C)[C@H](O)c1ccccc1",
+      "full_reaction_smiles_mapped": "[CH2:23]([CH3:24])[C:25](=[O:26])[N:27]([CH3:28])[C@H:29]([CH3:30])[C@H:31]([OH:32])[c:33]1[cH:34][cH:35][cH:36][cH:37][cH:38]1.I[CH2:22][C@H:2]([CH3:1])[CH2:3][O:4][Si:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[C:18]([CH3:19])([CH3:20])[CH3:21]>C1CCOC1.[Cl-].[Li+].[Li]N(C(C)C)C(C)C>[CH3:1][C@H:2]([CH2:3][O:4][Si:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[C:18]([CH3:19])([CH3:20])[CH3:21])[CH2:22][C@H:23]([CH3:24])[C:25](=[O:26])[N:27]([CH3:28])[C@H:29]([CH3:30])[C@H:31]([OH:32])[c:33]1[cH:34][cH:35][cH:36][cH:37][cH:38]1",
+      "mapping_confidence": 0.21756429986638592
+    },
+    {
+      "reaction_id": "5",
+      "reaction_smiles": "C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@H](C)C(=O)N(C)[C@H](C)[C@H](O)c1ccccc1>>C[C@H](CO)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "raw_description": "LDA; H3N\u2022BH3; THF; -78 \u00b0C to rt; 99% (2 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "H3N\u2022BH3",
+          "LDA"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "23"
+        ],
+        "YIELD": [
+          "99% (2 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "N.B",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@H](C)C(=O)N(C)[C@H](C)[C@H](O)c1ccccc1.B.N.[Li]N(C(C)C)C(C)C.C1CCOC1>>C[C@H](CO)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "full_reaction_smiles_mapped": "C[C@H]([C@H](O)c1ccccc1)N(C)[C:3]([C@@H:2]([CH3:1])[CH2:5][C@H:6]([CH3:7])[CH2:8][O:9][Si:10]([c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)([c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1)[C:23]([CH3:24])([CH3:25])[CH3:26])=[O:4]>B.C1CCOC1.N.[Li]N(C(C)C)C(C)C>[CH3:1][C@H:2]([CH2:3][OH:4])[CH2:5][C@H:6]([CH3:7])[CH2:8][O:9][Si:10]([c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)([c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1)[C:23]([CH3:24])([CH3:25])[CH3:26]",
+      "mapping_confidence": 0.17795665007245473
+    },
+    {
+      "reaction_id": "6",
+      "reaction_smiles": "C[C@H](CO)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C>>C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@H](C)C=O",
+      "raw_description": "(COCl)2; DMSO; Et3N; CH2Cl2; -78 to -30 \u00b0C",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "(COCl)2",
+          "Et3N"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "DMSO",
+          "CH2Cl2"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-30"
+        ],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C(=O)(C(=O)Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CS(=O)C",
+          "C(Cl)Cl"
+        ]
+      },
+      "full_reaction_smiles": "C[C@H](CO)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.O=C(Cl)C(=O)Cl.CCN(CC)CC.CS(C)=O.ClCCl>>C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@H](C)C=O",
+      "full_reaction_smiles_mapped": "[CH3:1][C@H:2]([CH2:3][O:4][Si:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[C:18]([CH3:19])([CH3:20])[CH3:21])[CH2:22][C@H:23]([CH3:24])[CH2:25][OH:26]>CCN(CC)CC.CS(C)=O.ClCCl.O=C(Cl)C(=O)Cl>[CH3:1][C@H:2]([CH2:3][O:4][Si:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[C:18]([CH3:19])([CH3:20])[CH3:21])[CH2:22][C@H:23]([CH3:24])[CH:25]=[O:26]",
+      "mapping_confidence": 0.16412562600924
+    },
+    {
+      "reaction_id": "7",
+      "reaction_smiles": "C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@H](C)C=O>>C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@H](C)C=C(Br)Br",
+      "raw_description": "CBr4; PPh3; Et3N; CH2Cl2; 0 \u00b0C; 75% (2 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "CBr4",
+          "Et3N"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "75% (2 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C(Br)(Br)(Br)Br",
+          "CCN(CC)CC"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C(Cl)Cl"
+        ]
+      },
+      "full_reaction_smiles": "C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@H](C)C=O.BrC(Br)(Br)Br.CCN(CC)CC.c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>>C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@H](C)C=C(Br)Br",
+      "full_reaction_smiles_mapped": "Br[C:26](Br)([Br:27])[Br:28].O=[CH:25][C@H:23]([CH2:22][C@H:2]([CH3:1])[CH2:3][O:4][Si:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[C:18]([CH3:19])([CH3:20])[CH3:21])[CH3:24]>CCN(CC)CC.ClCCl.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C@H:2]([CH2:3][O:4][Si:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[C:18]([CH3:19])([CH3:20])[CH3:21])[CH2:22][C@H:23]([CH3:24])[CH:25]=[C:26]([Br:27])[Br:28]",
+      "mapping_confidence": 0.02054333775685498
+    },
+    {
+      "reaction_id": "8",
+      "reaction_smiles": "C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@H](C)C=C(Br)Br>>CC(O)C#C[C@@H](C)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "raw_description": "nBuLi; MeCHO; THF; -78 \u00b0C to rt; 90%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "nBuLi",
+          "MeCHO"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "23"
+        ],
+        "YIELD": [
+          "90%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[Li]CCCC",
+          "CC=O"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@H](C)C=C(Br)Br.[Li]CCCC.CC=O.C1CCOC1>>CC(O)C#C[C@@H](C)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "full_reaction_smiles_mapped": "[CH3:1][CH:2]=[O:3].Br[C:4](Br)=[CH:5][C@@H:6]([CH3:7])[CH2:8][C@H:9]([CH3:10])[CH2:11][O:12][Si:13]([c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)([c:20]1[cH:21][cH:22][cH:23][cH:24][cH:25]1)[C:26]([CH3:27])([CH3:28])[CH3:29]>C1CCOC1.[Li]CCCC>[CH3:1][CH:2]([OH:3])[C:4]#[C:5][C@@H:6]([CH3:7])[CH2:8][C@H:9]([CH3:10])[CH2:11][O:12][Si:13]([c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)([c:20]1[cH:21][cH:22][cH:23][cH:24][cH:25]1)[C:26]([CH3:27])([CH3:28])[CH3:29]",
+      "mapping_confidence": 0.18139561868825507
+    },
+    {
+      "reaction_id": "9",
+      "reaction_smiles": "CC(O)C#C[C@@H](C)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C>>CC(C#C[C@@H](C)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OC(=O)c1ccccc1",
+      "raw_description": "BzCl; pyridine; DMAP; CH2Cl2",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "BzCl"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "pyridine",
+          "DMAP"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C1=CC=C(C=C1)C(=O)Cl"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C(Cl)Cl",
+          "C1=CC=NC=C1",
+          "CN(C)C1=CC=NC=C1"
+        ]
+      },
+      "full_reaction_smiles": "CC(O)C#C[C@@H](C)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.O=C(Cl)c1ccccc1.ClCCl.c1ccncc1.CN(C)c1ccncc1>>CC(C#C[C@@H](C)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OC(=O)c1ccccc1",
+      "full_reaction_smiles_mapped": "[CH3:1][CH:2]([C:3]#[C:4][C@@H:5]([CH3:6])[CH2:7][C@H:8]([CH3:9])[CH2:10][O:11][Si:12]([c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1)([c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1)[C:25]([CH3:26])([CH3:27])[CH3:28])[OH:29].Cl[C:30](=[O:31])[c:32]1[cH:33][cH:34][cH:35][cH:36][cH:37]1>CN(C)c1ccncc1.ClCCl.c1ccncc1>[CH3:1][CH:2]([C:3]#[C:4][C@@H:5]([CH3:6])[CH2:7][C@H:8]([CH3:9])[CH2:10][O:11][Si:12]([c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1)([c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1)[C:25]([CH3:26])([CH3:27])[CH3:28])[O:29][C:30](=[O:31])[c:32]1[cH:33][cH:34][cH:35][cH:36][cH:37]1",
+      "mapping_confidence": 0.17699387247546391
+    },
+    {
+      "reaction_id": "10",
+      "reaction_smiles": "CC(C#C[C@@H](C)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OC(=O)c1ccccc1>>CC(C#C[C@@H](C)C[C@H](C)CO)OC(=O)c1ccccc1",
+      "raw_description": "HF; H2O; MeCN; 0 \u00b0Cto rt; 94% (2 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "HF"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "H2O",
+          "MeCN"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": [
+          "94% (2 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "F"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "O",
+          "CC#N"
+        ]
+      },
+      "full_reaction_smiles": "CC(C#C[C@@H](C)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OC(=O)c1ccccc1.F.O.CC#N>>CC(C#C[C@@H](C)C[C@H](C)CO)OC(=O)c1ccccc1",
+      "full_reaction_smiles_mapped": "CC(C)(C)[Si](c1ccccc1)(c1ccccc1)[O:11][CH2:10][C@H:8]([CH2:7][C@@H:5]([C:4]#[C:3][CH:2]([CH3:1])[O:12][C:13](=[O:14])[c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1)[CH3:6])[CH3:9]>CC#N.F.O>[CH3:1][CH:2]([C:3]#[C:4][C@@H:5]([CH3:6])[CH2:7][C@H:8]([CH3:9])[CH2:10][OH:11])[O:12][C:13](=[O:14])[c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1",
+      "mapping_confidence": 0.9636864620503159
+    },
+    {
+      "reaction_id": "11",
+      "reaction_smiles": "CC(C#C[C@@H](C)C[C@H](C)CO)OC(=O)c1ccccc1>>CC(C#C[C@@H](C)C[C@H](C)C(=O)O)OC(=O)c1ccccc1",
+      "raw_description": "TEMPO; NaClO; NaClO2; tBuOH; 93%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "TEMPO",
+          "NaClO",
+          "NaClO2"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "tBuOH"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "CC1(CCCC(N1[O])(C)C)C",
+          "[O-]Cl.[Na+]",
+          "[O-]Cl=O.[Na+]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CC(C)(C)O"
+        ]
+      },
+      "full_reaction_smiles": "CC(C#C[C@@H](C)C[C@H](C)CO)OC(=O)c1ccccc1.CC1(C)CCCC(C)(C)N1[O].[Na+].[O-]Cl.[Na+].[O-][Cl+][O-].CC(C)(C)O>>CC(C#C[C@@H](C)C[C@H](C)C(=O)O)OC(=O)c1ccccc1",
+      "full_reaction_smiles_mapped": "[CH3:1][CH:2]([C:3]#[C:4][C@@H:5]([CH3:6])[CH2:7][C@H:8]([CH3:9])[CH2:10][OH:12])[O:13][C:14](=[O:15])[c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1.Cl[O-:11]>CC(C)(C)O.CC1(C)CCCC(C)(C)N1[O].[Na+].[Na+].[O-][Cl+][O-]>[CH3:1][CH:2]([C:3]#[C:4][C@@H:5]([CH3:6])[CH2:7][C@H:8]([CH3:9])[C:10](=[O:11])[OH:12])[O:13][C:14](=[O:15])[c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1",
+      "mapping_confidence": 0.3891373644142808
+    }
+  ]
+}

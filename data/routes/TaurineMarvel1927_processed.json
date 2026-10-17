@@ -1,0 +1,104 @@
+{
+  "background": {
+    "name": "Taurine",
+    "author": "Marvel",
+    "year": 1927,
+    "drug name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1927, 49, 1833",
+    "doi": "10.1021/ja01406a029"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "0",
+      "reaction_smiles": "BrCCBr>[O-]S(=O)[O-].[Na+].[Na+].CCO.O>O=S(=O)(CCBr)O[Na]",
+      "raw_description": "Na2SO3; EtOH; H2O; 90%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "Na2SO3"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "EtOH",
+          "H2O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[O-]S(=O)[O-].[Na+].[Na+]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CCO",
+          "O"
+        ]
+      },
+      "full_reaction_smiles": "BrCCBr.O=S([O-])[O-].[Na+].[Na+].CCO.O>>O=S(=O)(CCBr)O[Na]",
+      "full_reaction_smiles_mapped": "Br[CH2:4][CH2:5][Br:6].[O-:1][S:2](=[O:3])[O-:7].[Na+:8]>CCO.O.[Na+]>[O:1]=[S:2](=[O:3])([CH2:4][CH2:5][Br:6])[O:7][Na:8]",
+      "mapping_confidence": 0.27536778346913104
+    },
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "O=S(=O)(CCBr)O[Na]>ClP(Cl)(Cl)(Cl)Cl>O=S(=O)(CCBr)OCl",
+      "raw_description": "PCl5; 71%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "PCl5"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "71%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "P(Cl)(Cl)(Cl)(Cl)Cl"
+        ],
+        "SOLVENTS_DEFINITIONS": []
+      },
+      "full_reaction_smiles": "O=S(=O)(CCBr)O[Na].ClP(Cl)(Cl)(Cl)Cl>>O=S(=O)(CCBr)OCl",
+      "full_reaction_smiles_mapped": "ClP(Cl)(Cl)(Cl)[Cl:8].[Na][O:7][S:2](=[O:1])(=[O:3])[CH2:4][CH2:5][Br:6]>>[O:1]=[S:2](=[O:3])([CH2:4][CH2:5][Br:6])[O:7][Cl:8]",
+      "mapping_confidence": 0.1674889748159531
+    },
+    {
+      "reaction_id": "2",
+      "reaction_smiles": "O=S(=O)(CCBr)OCl>N.O>NCCS(=O)(=O)O",
+      "raw_description": "NH3; H2O; days; 16%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "NH3"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "16%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "N"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "O"
+        ]
+      },
+      "full_reaction_smiles": "O=S(=O)(CCBr)OCl.N.O>>NCCS(=O)(=O)O",
+      "full_reaction_smiles_mapped": "[NH3:1].Cl[O:7][S:4]([CH2:3][CH2:2]Br)(=[O:5])=[O:6]>O>[NH2:1][CH2:2][CH2:3][S:4](=[O:5])(=[O:6])[OH:7]",
+      "mapping_confidence": 0.8086408832108855
+    }
+  ]
+}

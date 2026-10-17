@@ -1,0 +1,115 @@
+{
+  "background": {
+    "name": "(+/-)-Elaeocarpidine",
+    "author": "Gribble",
+    "year": 1970,
+    "drug name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 1970, 35, 1944",
+    "doi": "10.1021/jo00831a049"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "O=C1CCCN1>CCOC(CCCl)OCC>CCOC(CCN1CCCC1=O)OCC",
+      "raw_description": "NaH; benzene; HMPA; 70 \u00b0C to reflux; 34%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "34%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[Na+].[H-]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1=CC=CC=C1"
+        ]
+      },
+      "full_reaction_smiles": "O=C1CCCN1.CCOC(CCCl)OCC.[H-].[Na+].CN(C)P(=O)(N(C)C)N(C)C.c1ccccc1>>CCOC(CCN1CCCC1=O)OCC",
+      "full_reaction_smiles_mapped": "Cl[CH2:6][CH2:5][CH:4]([O:3][CH2:2][CH3:1])[O:13][CH2:14][CH3:15].[NH:7]1[CH2:8][CH2:9][CH2:10][C:11]1=[O:12]>[H-].[Na+].CN(C)P(=O)(N(C)C)N(C)C.c1ccccc1>[CH3:1][CH2:2][O:3][CH:4]([CH2:5][CH2:6][N:7]1[CH2:8][CH2:9][CH2:10][C:11]1=[O:12])[O:13][CH2:14][CH3:15]",
+      "mapping_confidence": 0.957011452476774
+    },
+    {
+      "reaction_id": "2",
+      "reaction_smiles": "CCOC(CCN1CCCC1=O)OCC>NCCc1c[nH]c2ccccc12>O=C1CCCN1CCC1NCCc2c1[nH]c1ccccc21",
+      "raw_description": "HCl; H2O; reflux; 78%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "Cl"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "O"
+        ]
+      },
+      "full_reaction_smiles": "CCOC(CCN1CCCC1=O)OCC.NCCc1c[nH]c2ccccc12.Cl.O>>O=C1CCCN1CCC1NCCc2c1[nH]c1ccccc21",
+      "full_reaction_smiles_mapped": "CCO[CH:9](OCC)[CH2:8][CH2:7][N:6]1[C:2](=[O:1])[CH2:3][CH2:4][CH2:5]1.[NH2:10][CH2:11][CH2:12][c:13]1[cH:14][nH:15][c:16]2[cH:17][cH:18][cH:19][cH:20][c:21]12>Cl.O>[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][N:6]1[CH2:7][CH2:8][CH:9]1[NH:10][CH2:11][CH2:12][c:13]2[c:14]1[nH:15][c:16]1[cH:17][cH:18][cH:19][cH:20][c:21]21",
+      "mapping_confidence": 0.9828795910653281
+    },
+    {
+      "reaction_id": "3",
+      "reaction_smiles": "O=C1CCCN1CCC1NCCc2c1[nH]c1ccccc21>>c1ccc2c3c([nH]c2c1)C1CCN2CCCC2N1CC3",
+      "raw_description": "LiAlH4; THF; 0 \u00b0C to rt; 17%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": [
+          "17%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[Li+].[AlH4-]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "O=C1CCCN1CCC1NCCc2c1[nH]c1ccccc21.[AlH4-].[Li+].C1CCOC1>>c1ccc2c3c([nH]c2c1)C1CCN2CCCC2N1CC3",
+      "full_reaction_smiles_mapped": "O=[C:17]1[N:13]([CH2:12][CH2:11][CH:10]2[c:6]3[c:5]([c:4]4[cH:3][cH:2][cH:1][cH:9][c:8]4[nH:7]3)[CH2:20][CH2:19][NH:18]2)[CH2:14][CH2:15][CH2:16]1>[AlH4-].[Li+].C1CCOC1>[cH:1]1[cH:2][cH:3][c:4]2[c:5]3[c:6]([nH:7][c:8]2[cH:9]1)[CH:10]1[CH2:11][CH2:12][N:13]2[CH2:14][CH2:15][CH2:16][CH:17]2[N:18]1[CH2:19][CH2:20]3",
+      "mapping_confidence": 0.937594559484498
+    }
+  ]
+}

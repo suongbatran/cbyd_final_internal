@@ -1,0 +1,181 @@
+{
+  "background": {
+    "name": "(S)-Flurbiprofen",
+    "author": null,
+    "year": 2015,
+    "drug name": "TT-063",
+    "manufacturer": "Taisho",
+    "citation": "J. Med. Chem. 2017, 60, 15, 6480",
+    "doi": "10.1021/acs.jmedchem.7b00010"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "0",
+      "reaction_smiles": "CC(C(=O)O)c1ccc(N)c(F)c1>[O-]N=O.[Na+].Br>CC(C(=O)O)c1ccc([N+]#N)c(F)c1",
+      "raw_description": "NaNO2; aq. HBr; 5 \u00b0C",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "NaNO2",
+          "HBr"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "5"
+        ],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "N(=O)[O-].[Na+]",
+          "Br"
+        ],
+        "SOLVENTS_DEFINITIONS": []
+      },
+      "full_reaction_smiles": "CC(C(=O)O)c1ccc(N)c(F)c1.O=N[O-].[Na+].Br>>CC(C(=O)O)c1ccc([N+]#N)c(F)c1",
+      "full_reaction_smiles_mapped": "[CH3:1][CH:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[c:12]([F:13])[cH:14]1.O=[N:11][O-]>Br.[Na+]>[CH3:1][CH:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9]([N+:10]#[N:11])[c:12]([F:13])[cH:14]1",
+      "mapping_confidence": 0.9742939668720334
+    },
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "CC(C(=O)O)c1ccc([N+]#N)c(F)c1>C[C@H](N)c1ccccc1.Br.[Cu+].[Br-]>CC(C(=O)O)c1ccc(Br)c(F)c1",
+      "raw_description": "HBr; CuBr; 60 \u00b0C",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "HBr"
+        ],
+        "CATALYSTS": [
+          "CuBr"
+        ],
+        "LIGANDS": [],
+        "SOLVENTS": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [
+          "[Cu]Br"
+        ],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "Br"
+        ],
+        "SOLVENTS_DEFINITIONS": []
+      },
+      "full_reaction_smiles": "CC(C(=O)O)c1ccc([N+]#N)c(F)c1.C[C@H](N)c1ccccc1.Br.[Cu]Br>>CC(C(=O)O)c1ccc(Br)c(F)c1",
+      "full_reaction_smiles_mapped": "[BrH:10].N#[N+][c:9]1[cH:8][cH:7][c:6]([CH:2]([CH3:1])[C:3](=[O:4])[OH:5])[cH:13][c:11]1[F:12]>C[C@H](N)c1ccccc1.[Cu]Br>[CH3:1][CH:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9]([Br:10])[c:11]([F:12])[cH:13]1",
+      "mapping_confidence": 0.45651329104625316
+    },
+    {
+      "reaction_id": "2",
+      "reaction_smiles": "CC(C(=O)O)c1ccc(Br)c(F)c1>[O-]C(=O)[O-].[Na+].[Na+].O=O.O.Cl>CC(C(=O)O)c1ccc(-c2ccccc2)c(F)c1",
+      "raw_description": "1) Na2CO3; O2; NaB(C6H5)4; H2O; 100 \u00b0C; 2) aq. HCl; rt; 83% (3 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "Na2CO3",
+          "O2",
+          "NaB(C6H5)4",
+          "HCl"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100",
+          "23"
+        ],
+        "YIELD": [
+          "83% (3 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C(=O)([O-])[O-].[Na+].[Na+]",
+          "O=O",
+          "[B-](C1=CC=CC=C1)(C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4.[Na+]",
+          "Cl"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "O"
+        ]
+      },
+      "full_reaction_smiles": "CC(C(=O)O)c1ccc(Br)c(F)c1.O=C([O-])[O-].[Na+].[Na+].O=O.O.Cl.[Na+].c1ccc([B-](c2ccccc2)(c2ccccc2)c2ccccc2)cc1>>CC(C(=O)O)c1ccc(-c2ccccc2)c(F)c1",
+      "full_reaction_smiles_mapped": "Br[c:9]1[cH:8][cH:7][c:6]([CH:2]([CH3:1])[C:3](=[O:4])[OH:5])[cH:18][c:16]1[F:17].c1ccc([B-](c2ccccc2)(c2ccccc2)[c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)cc1>Cl.O.O=C([O-])[O-].O=O.[Na+].[Na+].[Na+]>[CH3:1][CH:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9](-[c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[c:16]([F:17])[cH:18]1",
+      "mapping_confidence": 0.3379055203791578
+    },
+    {
+      "reaction_id": "3",
+      "reaction_smiles": "CC(C(=O)O)c1ccc(-c2ccccc2)c(F)c1>C[C@H](N)c1ccccc1.CO.Cc1ccccc1>C[C@H](C(=O)O)c1ccc(-c2ccccc2)c(F)c1",
+      "raw_description": "MeOH; toluene; 60-0 \u00b0C; 45-65%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "MeOH",
+          "toluene"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60",
+          "0"
+        ],
+        "YIELD": [
+          "45-65%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [],
+        "SOLVENTS_DEFINITIONS": [
+          "CO",
+          "CC1=CC=CC=C1"
+        ]
+      },
+      "full_reaction_smiles": "CC(C(=O)O)c1ccc(-c2ccccc2)c(F)c1.C[C@H](N)c1ccccc1.CO.Cc1ccccc1>>C[C@H](C(=O)O)c1ccc(-c2ccccc2)c(F)c1",
+      "full_reaction_smiles_mapped": "[CH3:1][CH:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9](-[c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[c:16]([F:17])[cH:18]1>C[C@H](N)c1ccccc1.CO.Cc1ccccc1>[CH3:1][C@H:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9](-[c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[c:16]([F:17])[cH:18]1",
+      "mapping_confidence": 0.9023939950445187
+    },
+    {
+      "reaction_id": "4",
+      "reaction_smiles": "C[C@H](C(=O)O)c1ccc(-c2ccccc2)c(F)c1>Cl.O.Cc1ccccc1>C[C@H](C(=O)O)c1ccc(-c2ccccc2)c(F)c1",
+      "raw_description": "HCl; H2O; toluene; 55 to -10 \u00b0C; 60-85%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "H2O",
+          "toluene"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "55",
+          "-10"
+        ],
+        "YIELD": [
+          "60-85%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "Cl"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "O",
+          "CC1=CC=CC=C1"
+        ]
+      },
+      "full_reaction_smiles": "C[C@H](C(=O)O)c1ccc(-c2ccccc2)c(F)c1.Cl.O.Cc1ccccc1>>C[C@H](C(=O)O)c1ccc(-c2ccccc2)c(F)c1",
+      "full_reaction_smiles_mapped": "[CH3:1][C@H:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9](-[c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[c:16]([F:17])[cH:18]1>Cl.O.Cc1ccccc1>[CH3:1][C@H:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9](-[c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[c:16]([F:17])[cH:18]1",
+      "mapping_confidence": 0.9044396836459666
+    }
+  ]
+}

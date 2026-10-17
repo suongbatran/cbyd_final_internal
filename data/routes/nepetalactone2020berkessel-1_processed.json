@@ -1,0 +1,112 @@
+{
+  "background": {
+    "name": "Nepetalactone",
+    "author": "Berkessel",
+    "year": 2020,
+    "drug name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2020, 22, 386",
+    "doi": "10.1021/acs.orglett.9b04034"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "CC(C)=CCC[C@H](C)CCO>>C/C(=C\\CC[C@H](C)CCO)CO",
+      "raw_description": "SeO2; t-BuOOH; rt",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "t-BuOOH",
+          "SeO2"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "23"
+        ],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "CC(C)(C)OO",
+          "O=[Se]=O"
+        ],
+        "SOLVENTS_DEFINITIONS": []
+      },
+      "full_reaction_smiles": "CC(C)=CCC[C@H](C)CCO.CC(C)(C)OO.O=[Se]=O>>C/C(=C\\CC[C@H](C)CCO)CO",
+      "full_reaction_smiles_mapped": "CC(C)(C)O[OH:12].[CH3:1][C:2](=[CH:3][CH2:4][CH2:5][C@H:6]([CH3:7])[CH2:8][CH2:9][OH:10])[CH3:11]>O=[Se]=O>[CH3:1]/[C:2](=[CH:3]\\[CH2:4][CH2:5][C@H:6]([CH3:7])[CH2:8][CH2:9][OH:10])[CH2:11][OH:12]",
+      "mapping_confidence": 0.6798931111416626
+    },
+    {
+      "reaction_id": "2",
+      "reaction_smiles": "C/C(=C\\CC[C@H](C)CCO)CO>>C/C(C=O)=C\\CC[C@H](C)CC=O",
+      "raw_description": "IBX; MeCN; 58% (2 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "IBX"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "58% (2 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C1=CC=C2C(=C1)C(=O)OI2(=O)O"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CC#N"
+        ]
+      },
+      "full_reaction_smiles": "C/C(=C\\CC[C@H](C)CCO)CO.O=C1OI(=O)(O)c2ccccc21.CC#N>>C/C(C=O)=C\\CC[C@H](C)CC=O",
+      "full_reaction_smiles_mapped": "[CH3:1]/[C:2]([CH2:3][OH:4])=[CH:5]\\[CH2:6][CH2:7][C@H:8]([CH3:9])[CH2:10][CH2:11][OH:12]>CC#N.O=C1OI(=O)(O)c2ccccc21>[CH3:1]/[C:2]([CH:3]=[O:4])=[CH:5]\\[CH2:6][CH2:7][C@H:8]([CH3:9])[CH2:10][CH:11]=[O:12]",
+      "mapping_confidence": 0.9777823523397003
+    },
+    {
+      "reaction_id": "3",
+      "reaction_smiles": "C/C(C=O)=C\\CC[C@H](C)CC=O>>CC1=COC(=O)[C@H]2[C@@H]1CC[C@@H]2C",
+      "raw_description": "NHC precatalyst (triazolium chloride); diphenoquinone oxidant; DIPEA; MS 4 \u00c5; THF; rt",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "diphenoquinone",
+          "DIPEA"
+        ],
+        "CATALYSTS": [
+          "NHC precatalyst"
+        ],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "MODIFIERS": [
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "23"
+        ],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [
+          "Cc1cc(C)c(-n2c[n+](-c3c(C)cc(C)c([N+](=O)[O-])c3C)nc2-c2ccccc2)c(C)c1.[Cl-]"
+        ],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "CC(C)(C)C1=CC(=C2C=C(C(C)(C)C)C(=O)C(C(C)(C)C)=C2)C=C(C(C)(C)C)C1=O",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "C/C(C=O)=C\\CC[C@H](C)CC=O.CC(C)(C)C1=CC(=C2C=C(C(C)(C)C)C(=O)C(C(C)(C)C)=C2)C=C(C(C)(C)C)C1=O.CCN(C(C)C)C(C)C.Cc1cc(C)c(-n2c[n+](-c3c(C)cc(C)c([N+](=O)[O-])c3C)nc2-c2ccccc2)c(C)c1.[Cl-].C1CCOC1>>CC1=COC(=O)[C@H]2[C@@H]1CC[C@@H]2C",
+      "full_reaction_smiles_mapped": "[CH3:1]/[C:2]([CH:3]=[O:4])=[CH:8]\\[CH2:9][CH2:10][C@@H:11]([CH2:7][CH:5]=[O:6])[CH3:12]>C1CCOC1.CC(C)(C)C1=CC(=C2C=C(C(C)(C)C)C(=O)C(C(C)(C)C)=C2)C=C(C(C)(C)C)C1=O.CCN(C(C)C)C(C)C.Cc1cc(C)c(-n2c[n+](-c3c(C)cc(C)c([N+](=O)[O-])c3C)nc2-c2ccccc2)c(C)c1.[Cl-]>[CH3:1][C:2]1=[CH:3][O:4][C:5](=[O:6])[C@H:7]2[C@@H:8]1[CH2:9][CH2:10][C@@H:11]2[CH3:12]",
+      "mapping_confidence": 0.5566585656940107
+    }
+  ]
+}

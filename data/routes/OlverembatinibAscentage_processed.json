@@ -1,0 +1,116 @@
+{
+  "background": {
+    "name": "Olverembatinib",
+    "author": null,
+    "year": 2022,
+    "drug name": null,
+    "manufacturer": "Ascentage",
+    "citation": "J. Med. Chem. 2024, 67, 4376",
+    "doi": "10.1021/acs.jmedchem.3c02374"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "C#Cc1cc(C(=O)OC)ccc1C>CC(C)(C)OC(=O)n1ncc2cc(Br)cnc21>COC(=O)c1ccc(C)c(C#Cc2cnc3c(cnn3C(=O)OC(C)(C)C)c2)c1",
+      "raw_description": "1) (Ph3P)2PdCl2; CuI; TEA; NMP; 2) N-Ac-cysteine; 98%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "N-Ac-cysteine",
+          "Ph3P"
+        ],
+        "CATALYSTS": [
+          "(Ph3P)2PdCl2",
+          "CuI"
+        ],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "TEA",
+          "NMP"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ],
+        "CATALYSTS_DEFINITIONS": [
+          "Cl[Pd]Cl.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3",
+          "[Cu+].[I-]"
+        ],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "CC(=O)N[C@@H](CS)C(=O)O",
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CCN(CC)CC",
+          "CN1CCCC1=O"
+        ]
+      },
+      "full_reaction_smiles": "C#Cc1cc(C(=O)OC)ccc1C.CC(C)(C)OC(=O)n1ncc2cc(Br)cnc21.CC(=O)N[C@@H](CS)C(=O)O.c1ccc(P(c2ccccc2)c2ccccc2)cc1.Cl[Pd]Cl.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.[Cu+].[I-].CCN(CC)CC.CN1CCCC1=O>>COC(=O)c1ccc(C)c(C#Cc2cnc3c(cnn3C(=O)OC(C)(C)C)c2)c1",
+      "full_reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][cH:7][c:8]([CH3:9])[c:10]([C:11]#[CH:12])[cH:29]1.Br[c:13]1[cH:14][n:15][c:16]2[c:17]([cH:18][n:19][n:20]2[C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[cH:28]1>CC(=O)N[C@@H](CS)C(=O)O.CCN(CC)CC.CN1CCCC1=O.Cl[Pd]Cl.[Cu+].[I-].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][cH:7][c:8]([CH3:9])[c:10]([C:11]#[C:12][c:13]2[cH:14][n:15][c:16]3[c:17]([cH:18][n:19][n:20]3[C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[cH:28]2)[cH:29]1",
+      "mapping_confidence": 0.38925189835365465
+    },
+    {
+      "reaction_id": "2",
+      "reaction_smiles": "COC(=O)c1ccc(C)c(C#Cc2cnc3c(cnn3C(=O)OC(C)(C)C)c2)c1>>COC(=O)c1ccc(C)c(C#Cc2cnc3[nH]ncc3c2)c1",
+      "raw_description": "MeOH; H2O; reflux; 91%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "MeOH",
+          "H2O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [],
+        "SOLVENTS_DEFINITIONS": [
+          "CO",
+          "O"
+        ]
+      },
+      "full_reaction_smiles": "COC(=O)c1ccc(C)c(C#Cc2cnc3c(cnn3C(=O)OC(C)(C)C)c2)c1.CO.O>>COC(=O)c1ccc(C)c(C#Cc2cnc3[nH]ncc3c2)c1",
+      "full_reaction_smiles_mapped": "CC(C)(C)OC(=O)[n:17]1[c:16]2[n:15][cH:14][c:13]([C:12]#[C:11][c:10]3[c:8]([CH3:9])[cH:7][cH:6][c:5]([C:3]([O:2][CH3:1])=[O:4])[cH:22]3)[cH:21][c:20]2[cH:19][n:18]1>CO.O>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][cH:7][c:8]([CH3:9])[c:10]([C:11]#[C:12][c:13]2[cH:14][n:15][c:16]3[nH:17][n:18][cH:19][c:20]3[cH:21]2)[cH:22]1",
+      "mapping_confidence": 0.9328385560676266
+    },
+    {
+      "reaction_id": "3",
+      "reaction_smiles": "COC(=O)c1ccc(C)c(C#Cc2cnc3[nH]ncc3c2)c1>CN1CCN(Cc2ccc(N)cc2C(F)(F)F)CC1>Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2[nH]ncc2c1",
+      "raw_description": "1) KOt-Bu; THF; 2) N-Ac-cysteine; 88%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "KOt-Bu",
+          "N-Ac-cysteine"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "CC(C)(C)[O-].[K+]",
+          "CC(=O)N[C@@H](CS)C(=O)O"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1"
+        ]
+      },
+      "full_reaction_smiles": "COC(=O)c1ccc(C)c(C#Cc2cnc3[nH]ncc3c2)c1.CN1CCN(Cc2ccc(N)cc2C(F)(F)F)CC1.CC(C)(C)[O-].[K+].CC(=O)N[C@@H](CS)C(=O)O.C1CCOC1>>Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2[nH]ncc2c1",
+      "full_reaction_smiles_mapped": "[NH2:8][c:9]1[cH:10][cH:11][c:12]([CH2:13][N:14]2[CH2:15][CH2:16][N:17]([CH3:18])[CH2:19][CH2:20]2)[c:21]([C:22]([F:23])([F:24])[F:25])[cH:26]1.CO[C:6]([c:5]1[cH:4][cH:3][c:2]([CH3:1])[c:28]([C:29]#[C:30][c:31]2[cH:32][n:33][c:34]3[nH:35][n:36][cH:37][c:38]3[cH:39]2)[cH:27]1)=[O:7]>C1CCOC1.CC(=O)N[C@@H](CS)C(=O)O.CC(C)(C)[O-].[K+]>[CH3:1][c:2]1[cH:3][cH:4][c:5]([C:6](=[O:7])[NH:8][c:9]2[cH:10][cH:11][c:12]([CH2:13][N:14]3[CH2:15][CH2:16][N:17]([CH3:18])[CH2:19][CH2:20]3)[c:21]([C:22]([F:23])([F:24])[F:25])[cH:26]2)[cH:27][c:28]1[C:29]#[C:30][c:31]1[cH:32][n:33][c:34]2[nH:35][n:36][cH:37][c:38]2[cH:39]1",
+      "mapping_confidence": 0.23605671132719103
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "background": {
+    "name": "Ephedrine",
+    "author": "Johnson",
+    "year": 1929,
+    "drug name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1929, 51, 580",
+    "doi": "10.1021/ja01377a032"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "0",
+      "reaction_smiles": "CCC(=O)c1ccccc1>[Cl-].[Cl-].[Ca+2].Cl>CC(=O)C(=O)c1ccccc1",
+      "raw_description": "N2O4; CaCl2; HCl",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "N2O4",
+          "CaCl2",
+          "HCl"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[N+](=O)([N+](=O)[O-])[O-]",
+          "[Cl-].[Cl-].[Ca+2]",
+          "Cl"
+        ],
+        "SOLVENTS_DEFINITIONS": []
+      },
+      "full_reaction_smiles": "CCC(=O)c1ccccc1.[Cl-].[Cl-].[Ca+2].Cl.O=[N+]([O-])[N+](=O)[O-]>>CC(=O)C(=O)c1ccccc1",
+      "full_reaction_smiles_mapped": "[CH3:1][CH2:2][C:4](=[O:5])[c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1.O=[N+]([O-])[N+]([O-])=[O:3]>[Cl-].[Cl-].[Ca+2].Cl>[CH3:1][C:2](=[O:3])[C:4](=[O:5])[c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1",
+      "mapping_confidence": 0.42655947933399185
+    },
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "CC(=O)C(=O)c1ccccc1>>CN[C@@H](C)[C@H](O)c1ccccc1",
+      "raw_description": "CH3NH2; PtO2; H2",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [],
+        "CATALYSTS": [
+          "PtO2"
+        ],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "CH3NH2"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [
+          "O=[Pt]=O"
+        ],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [],
+        "SOLVENTS_DEFINITIONS": [
+          "CN"
+        ]
+      },
+      "full_reaction_smiles": "CC(=O)C(=O)c1ccccc1.O=[Pt]=O.CN>>CN[C@@H](C)[C@H](O)c1ccccc1",
+      "full_reaction_smiles_mapped": "O=[C:3]([CH3:4])[C:5](=[O:6])[c:7]1[cH:8][cH:9][cH:10][cH:11][cH:12]1.[CH3:1][NH2:2]>O=[Pt]=O>[CH3:1][NH:2][C@@H:3]([CH3:4])[C@H:5]([OH:6])[c:7]1[cH:8][cH:9][cH:10][cH:11][cH:12]1",
+      "mapping_confidence": 0.9092016904535943
+    }
+  ]
+}

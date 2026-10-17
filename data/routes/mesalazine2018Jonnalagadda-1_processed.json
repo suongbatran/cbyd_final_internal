@@ -1,0 +1,79 @@
+{
+  "background": {
+    "name": "Mesalamine",
+    "author": null,
+    "year": 2018,
+    "drug name": "Mesalazine",
+    "manufacturer": "Jonnalagadda",
+    "citation": "Green Process. Synth. 2018, 8, 320",
+    "doi": "10.1007/BF01524590"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "0",
+      "reaction_smiles": "O=C(O)c1cc([N+](=O)[O-])ccc1Cl>[K+].[OH-].O>O=C(O)c1cc([N+](=O)[O-])ccc1O",
+      "raw_description": "KOH; H2O; 8h; 130\u00b0C; 98.9%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "130"
+        ],
+        "YIELD": [
+          "98.9%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[OH-].[K+]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "O"
+        ]
+      },
+      "full_reaction_smiles": "O=C(O)c1cc([N+](=O)[O-])ccc1Cl.[K+].[OH-].O.[K+].[OH-]>>O=C(O)c1cc([N+](=O)[O-])ccc1O",
+      "full_reaction_smiles_mapped": "Cl[c:12]1[c:4]([C:2](=[O:1])[OH:3])[cH:5][c:6]([N+:7](=[O:8])[O-:9])[cH:10][cH:11]1.[OH-:13]>O.[K+].[K+].[OH-]>[O:1]=[C:2]([OH:3])[c:4]1[cH:5][c:6]([N+:7](=[O:8])[O-:9])[cH:10][cH:11][c:12]1[OH:13]",
+      "mapping_confidence": 0.34207022706930557
+    },
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "O=C(O)c1cc([N+](=O)[O-])ccc1O>[H][H].[Pd]>Nc1ccc(O)c(C(=O)O)c1",
+      "raw_description": "H2; 10% Pd/C; 8h; 60\u00b0C; 99.3%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "CATALYSTS": [
+          "10% Pd/C"
+        ],
+        "LIGANDS": [],
+        "SOLVENTS": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "99.3%"
+        ],
+        "CATALYSTS_DEFINITIONS": [
+          "[Pd]"
+        ],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[HH]"
+        ],
+        "SOLVENTS_DEFINITIONS": []
+      },
+      "full_reaction_smiles": "O=C(O)c1cc([N+](=O)[O-])ccc1O.[H][H].[Pd].[HH]>>Nc1ccc(O)c(C(=O)O)c1",
+      "full_reaction_smiles_mapped": "O=[N+:1]([O-])[c:2]1[cH:3][cH:4][c:5]([OH:6])[c:7]([C:8](=[O:9])[OH:10])[cH:11]1>[HH].[H][H].[Pd]>[NH2:1][c:2]1[cH:3][cH:4][c:5]([OH:6])[c:7]([C:8](=[O:9])[OH:10])[cH:11]1",
+      "mapping_confidence": 0.9654549169779366
+    }
+  ]
+}

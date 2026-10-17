@@ -1,0 +1,155 @@
+{
+  "background": {
+    "name": "Dacomitinib",
+    "author": null,
+    "year": 2018,
+    "drug name": "Vizimpro",
+    "manufacturer": "Pfizer",
+    "citation": "J. Med. Chem. 2020, 63, 10652",
+    "doi": "10.1021/acs.jmedchem.0c00345"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "0",
+      "reaction_smiles": "COc1cc(/N=C/N(C)C)c(C#N)cc1[N+](=O)[O-]>[Pd].[H][H].CC#N>COc1cc(/N=C/N(C)C)c(C#N)cc1N",
+      "raw_description": "Pd/C; H2; MeCN; rt",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "23"
+        ],
+        "YIELD": [],
+        "CATALYSTS_DEFINITIONS": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[HH]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CC#N"
+        ]
+      },
+      "full_reaction_smiles": "COc1cc(/N=C/N(C)C)c(C#N)cc1[N+](=O)[O-].[Pd].[H][H].CC#N.[HH].[C].[Pd]>>COc1cc(/N=C/N(C)C)c(C#N)cc1N",
+      "full_reaction_smiles_mapped": "O=[N+:16]([O-])[c:15]1[c:3]([O:2][CH3:1])[cH:4][c:5](/[N:6]=[CH:7]/[N:8]([CH3:9])[CH3:10])[c:11]([C:12]#[N:13])[cH:14]1>CC#N.[C].[HH].[H][H].[Pd].[Pd]>[CH3:1][O:2][c:3]1[cH:4][c:5](/[N:6]=[CH:7]/[N:8]([CH3:9])[CH3:10])[c:11]([C:12]#[N:13])[cH:14][c:15]1[NH2:16]",
+      "mapping_confidence": 0.6960487566292821
+    },
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "COc1cc(/N=C/N(C)C)c(C#N)cc1N>O=C(O)/C=C/CN1CCCCC1.CC#N.[Na+].[OH-]>COc1cc(/N=C/N(C)C)c(C#N)cc1NC(=O)/C=C/CN1CCCCC1",
+      "raw_description": "1) T3P in MeCN; 2,6-lutidine; 2) NaOH; PhCH3; 75% (2 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "CATALYSTS": [
+          "T3P"
+        ],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "MeCN",
+          "2,6-lutidine",
+          "PhCH3"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "75% (2 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [
+          "CCCP1(=O)OP(=O)(OP(=O)(O1)CCC)CCC"
+        ],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[OH-].[Na+]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CC#N",
+          "Cc1cccc(C)n1",
+          "CC1=CC=CC=C1"
+        ]
+      },
+      "full_reaction_smiles": "COc1cc(/N=C/N(C)C)c(C#N)cc1N.O=C(O)/C=C/CN1CCCCC1.CC#N.[Na+].[OH-].[Na+].[OH-].CCCP1(=O)OP(=O)(CCC)OP(=O)(CCC)O1.Cc1cccc(C)n1.Cc1ccccc1>>COc1cc(/N=C/N(C)C)c(C#N)cc1NC(=O)/C=C/CN1CCCCC1",
+      "full_reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5](/[N:6]=[CH:7]/[N:8]([CH3:9])[CH3:10])[c:11]([C:12]#[N:13])[cH:14][c:15]1[NH2:16].O[C:17](=[O:18])/[CH:19]=[CH:20]/[CH2:21][N:22]1[CH2:23][CH2:24][CH2:25][CH2:26][CH2:27]1>CC#N.CCCP1(=O)OP(=O)(CCC)OP(=O)(CCC)O1.Cc1cccc(C)n1.Cc1ccccc1.[Na+].[Na+].[OH-].[OH-]>[CH3:1][O:2][c:3]1[cH:4][c:5](/[N:6]=[CH:7]/[N:8]([CH3:9])[CH3:10])[c:11]([C:12]#[N:13])[cH:14][c:15]1[NH:16][C:17](=[O:18])/[CH:19]=[CH:20]/[CH2:21][N:22]1[CH2:23][CH2:24][CH2:25][CH2:26][CH2:27]1",
+      "mapping_confidence": 0.4747693450274983
+    },
+    {
+      "reaction_id": "2",
+      "reaction_smiles": "COc1cc(/N=C/N(C)C)c(C#N)cc1NC(=O)/C=C/CN1CCCCC1>Nc1ccc(F)c(Cl)c1>COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN1CCCCC1",
+      "raw_description": "1) HOAc; 30 \u00b0C; 2) NaOH; MeTHF; 3) Et3N; MeCN; 78%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "NaOH",
+          "Et3N"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "HOAc",
+          "MeTHF",
+          "MeCN"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "30"
+        ],
+        "YIELD": [
+          "78%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "[OH-].[Na+]",
+          "CCN(CC)CC"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CC(=O)O",
+          "CC1CCCO1",
+          "CC#N"
+        ]
+      },
+      "full_reaction_smiles": "COc1cc(/N=C/N(C)C)c(C#N)cc1NC(=O)/C=C/CN1CCCCC1.Nc1ccc(F)c(Cl)c1.[Na+].[OH-].CCN(CC)CC.CC(=O)O.CC1CCCO1.CC#N>>COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN1CCCCC1",
+      "full_reaction_smiles_mapped": "CN(C)/[CH:7]=[N:6]/[c:5]1[cH:4][c:3]([O:2][CH3:1])[c:21]([NH:22][C:23](=[O:24])/[CH:25]=[CH:26]/[CH2:27][N:28]2[CH2:29][CH2:30][CH2:31][CH2:32][CH2:33]2)[cH:20][c:19]1[C:9]#[N:8].[NH2:10][c:11]1[cH:12][cH:13][c:14]([F:15])[c:16]([Cl:17])[cH:18]1>CC#N.CC(=O)O.CC1CCCO1.CCN(CC)CC.[Na+].[OH-]>[CH3:1][O:2][c:3]1[cH:4][c:5]2[n:6][cH:7][n:8][c:9]([NH:10][c:11]3[cH:12][cH:13][c:14]([F:15])[c:16]([Cl:17])[cH:18]3)[c:19]2[cH:20][c:21]1[NH:22][C:23](=[O:24])/[CH:25]=[CH:26]/[CH2:27][N:28]1[CH2:29][CH2:30][CH2:31][CH2:32][CH2:33]1",
+      "mapping_confidence": 0.8284372528428906
+    },
+    {
+      "reaction_id": "3",
+      "reaction_smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN1CCCCC1>CCO.O>COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN1CCCCC1.O",
+      "raw_description": "EtOH; H2O; reflux; 82%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "EtOH",
+          "H2O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [],
+        "SOLVENTS_DEFINITIONS": [
+          "CCO",
+          "O"
+        ]
+      },
+      "full_reaction_smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN1CCCCC1.CCO.O>>COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN1CCCCC1.O",
+      "full_reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5]2[n:6][cH:7][n:8][c:9]([NH:10][c:11]3[cH:12][cH:13][c:14]([F:15])[c:16]([Cl:17])[cH:18]3)[c:19]2[cH:20][c:21]1[NH:22][C:23](=[O:24])/[CH:25]=[CH:26]/[CH2:27][N:28]1[CH2:29][CH2:30][CH2:31][CH2:32][CH2:33]1.[OH2:34]>CCO>[CH3:1][O:2][c:3]1[cH:4][c:5]2[n:6][cH:7][n:8][c:9]([NH:10][c:11]3[cH:12][cH:13][c:14]([F:15])[c:16]([Cl:17])[cH:18]3)[c:19]2[cH:20][c:21]1[NH:22][C:23](=[O:24])/[CH:25]=[CH:26]/[CH2:27][N:28]1[CH2:29][CH2:30][CH2:31][CH2:32][CH2:33]1.[OH2:34]",
+      "mapping_confidence": 0.9464507463263618
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chemistry by Design — Viewer</title>
+  <link rel="stylesheet" href="/static/style.css?v=20260817v6" />
+  <!-- Vendored libs (load order matters: dagre -> cytoscape -> cytoscape-dagre) -->
+  <script src="/static/vendor/dagre.min.js"></script>
+  <script src="/static/vendor/cytoscape.min.js"></script>
+  <script src="/static/vendor/cytoscape-dagre.js"></script>
+</head>
+<body>
+  <div id="app">
+    <!-- Left: route list -->
+    <aside id="sidebar">
+      <div class="sidebar-head">
+        <h1>Routes</h1>
+        <input id="route-bgname" type="text" placeholder="Search compound name…" autocomplete="off" />
+        <input id="route-doi" type="text" placeholder="Search DOI (e.g. 10.1002/anie…)" autocomplete="off" />
+        <input id="route-author" type="text" placeholder="Search author…" autocomplete="off" />
+        <input id="route-year" type="text" inputmode="numeric" placeholder="Search year (e.g. 2019)" autocomplete="off" />
+        <div id="route-count" class="muted"></div>
+      </div>
+      <ul id="route-list"></ul>
+    </aside>
+
+    <div class="gutter" id="gutter-l" data-side="left" title="drag to resize"></div>
+
+    <!-- Middle: graph -->
+    <main id="main">
+      <header id="route-header">
+        <div id="route-title">Select a route to begin</div>
+        <div id="route-meta" class="muted"></div>
+        <div id="route-tools" class="hidden">
+          <button id="btn-abbr" class="btn" title="Toggle group / chain abbreviations (Bn, Boc, PEG6, (CH₂)ₙ …)">Abbrev: on</button>
+          <button id="btn-color" class="btn" title="Toggle element colours for heteroatoms (O red, N blue, …) vs all-black">Colored atoms: off</button>
+          <button id="btn-info" class="btn">Route info</button>
+        </div>
+        <div id="warnings" class="warnings hidden"></div>
+      </header>
+      <div id="graph-wrap">
+        <div id="cy"></div>
+      </div>
+    </main>
+
+    <div class="gutter" id="gutter-r" data-side="right" title="drag to resize"></div>
+
+    <!-- Right: detail panel (read-only) -->
+    <aside id="panel" class="empty">
+      <div id="panel-empty" class="muted panel-pad">
+        Click a <b>reaction node</b> to view its mapped reaction &amp; reagents,
+        or a molecule to inspect it.
+      </div>
+      <div id="panel-content" class="hidden"></div>
+    </aside>
+  </div>
+
+  <div id="tooltip" class="hidden"></div>
+
+  <!-- click-to-enlarge lightbox for the reaction/molecule image -->
+  <div id="lightbox" class="hidden">
+    <img id="lightbox-img" alt="enlarged" />
+  </div>
+
+  <script src="/static/app.js?v=20260817v6"></script>
+</body>
+</html>

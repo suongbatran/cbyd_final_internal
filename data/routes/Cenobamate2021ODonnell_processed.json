@@ -1,0 +1,112 @@
+{
+  "background": {
+    "name": "Cenobamate",
+    "author": null,
+    "year": 2019,
+    "drug name": "Xcopri",
+    "manufacturer": "SK-Life-Science",
+    "citation": "J. Med. Chem. 2021, 64, 3604",
+    "doi": "10.1021/acs.jmedchem.1c00208"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "0",
+      "reaction_smiles": "O=C(CBr)c1ccccc1Cl>c1nn[nH]n1.[O-]C(=O)[O-].[K+].[K+].CC#N.O=CN(C)C.CC(O)C>O=C(Cn1ncnn1)c1ccccc1Cl",
+      "raw_description": "1) K2CO3; MeCN; DMF; 45 \u00b0C; 2) n-heptane; iPrOH; 5 \u00b0C; 43%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "MeCN",
+          "DMF",
+          "n-heptane",
+          "iPrOH"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45",
+          "5"
+        ],
+        "YIELD": [
+          "43%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "SOLVENTS_DEFINITIONS": [
+          "CC#N",
+          "CN(C)C=O",
+          "CCCCCCC",
+          "CC(C)O"
+        ]
+      },
+      "full_reaction_smiles": "O=C(CBr)c1ccccc1Cl.c1nn[nH]n1.O=C([O-])[O-].[K+].[K+].CC#N.CN(C)C=O.CC(C)O.O=C([O-])[O-].[K+].[K+].CCCCCCC>>O=C(Cn1ncnn1)c1ccccc1Cl",
+      "full_reaction_smiles_mapped": "Br[CH2:3][C:2](=[O:1])[c:9]1[cH:10][cH:11][cH:12][cH:13][c:14]1[Cl:15].[nH:4]1[n:5][cH:6][n:7][n:8]1>CC#N.CC(C)O.CCCCCCC.CN(C)C=O.O=C([O-])[O-].O=C([O-])[O-].[K+].[K+].[K+].[K+]>[O:1]=[C:2]([CH2:3][n:4]1[n:5][cH:6][n:7][n:8]1)[c:9]1[cH:10][cH:11][cH:12][cH:13][c:14]1[Cl:15]",
+      "mapping_confidence": 0.8473023136162982
+    },
+    {
+      "reaction_id": "1",
+      "reaction_smiles": "O=C(Cn1ncnn1)c1ccccc1Cl>CCN(CC)CC.[Mg+2].[Cl-].[Cl-].OCC(CO)O.c1ccc2c(c1)c1ccccc1cc2>O[C@@H](Cn1ncnn1)c1ccccc1Cl",
+      "raw_description": "oxidoreductase; C. magnoliae; NADPH; TEA; MgCl2; glycerol; pH = 9; 99%",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [],
+        "MODIFIERS": [
+          "glycerol"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [],
+        "SOLVENTS_DEFINITIONS": []
+      },
+      "full_reaction_smiles": "O=C(Cn1ncnn1)c1ccccc1Cl.CCN(CC)CC.[Mg+2].[Cl-].[Cl-].OCC(O)CO.c1ccc2c(c1)ccc1ccccc12>>O[C@@H](Cn1ncnn1)c1ccccc1Cl",
+      "full_reaction_smiles_mapped": "[O:1]=[C:2]([CH2:3][n:4]1[n:5][cH:6][n:7][n:8]1)[c:9]1[cH:10][cH:11][cH:12][cH:13][c:14]1[Cl:15]>CCN(CC)CC.OCC(O)CO.[Cl-].[Cl-].[Mg+2].c1ccc2c(c1)ccc1ccccc12>[OH:1][C@@H:2]([CH2:3][n:4]1[n:5][cH:6][n:7][n:8]1)[c:9]1[cH:10][cH:11][cH:12][cH:13][c:14]1[Cl:15]",
+      "mapping_confidence": 0.983124660104848
+    },
+    {
+      "reaction_id": "2",
+      "reaction_smiles": "O[C@@H](Cn1ncnn1)c1ccccc1Cl>O=C=NS(=O)(=O)Cl.C1CCCO1.O>NC(=O)O[C@@H](Cn1ncnn1)c1ccccc1Cl",
+      "raw_description": "1) THF; -10 to 0 \u00b0C; 2) H2O; 0 \u00b0C to rt; 86% (2 steps)",
+      "parsed_reaction": {
+        "GENERAL_REAGENTS": [],
+        "CATALYSTS": [],
+        "LIGANDS": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-10",
+          "0",
+          "0",
+          "23"
+        ],
+        "YIELD": [
+          "86% (2 steps)"
+        ],
+        "CATALYSTS_DEFINITIONS": [],
+        "LIGANDS_DEFINITIONS": [],
+        "GENERAL_REAGENTS_DEFINITIONS": [],
+        "SOLVENTS_DEFINITIONS": [
+          "C1CCOC1",
+          "O"
+        ]
+      },
+      "full_reaction_smiles": "O[C@@H](Cn1ncnn1)c1ccccc1Cl.O=C=NS(=O)(=O)Cl.C1CCOC1.O>>NC(=O)O[C@@H](Cn1ncnn1)c1ccccc1Cl",
+      "full_reaction_smiles_mapped": "O=S(=O)(Cl)[N:1]=[C:2]=[O:3].[OH:4][C@@H:5]([CH2:6][n:7]1[n:8][cH:9][n:10][n:11]1)[c:12]1[cH:13][cH:14][cH:15][cH:16][c:17]1[Cl:18]>C1CCOC1.O>[NH2:1][C:2](=[O:3])[O:4][C@@H:5]([CH2:6][n:7]1[n:8][cH:9][n:10][n:11]1)[c:12]1[cH:13][cH:14][cH:15][cH:16][c:17]1[Cl:18]",
+      "mapping_confidence": 0.9789676073339163
+    }
+  ]
+}
