@@ -12,11 +12,9 @@ It needs no installation, no server and no internet connection.
 
 **What you can do in the viewer**
 
-- **Search** routes by compound name, DOI, author or year.
-- **See each route as a synthesis tree.** Starting materials are 🟢, intermediates 🔵,
-targets 🔴 and reaction steps 🟨. Each structure is drawn in the same orientation as the
-product it becomes, so you can follow the scaffold from step to step.
-- **Click a reaction** to see the atom-mapped reaction, the original description, the
+- Search routes by compound name, DOI, author or year.
+- See each route as a synthesis tree.
+- Click a reaction to see the atom-mapped reaction, the original description, the
 reagents and conditions (hover a reagent thumbnail to enlarge it) and the mapped SMILES.
 
 
